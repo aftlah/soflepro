@@ -2,26 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0.00 0.00% 100.00%;
+    --foreground: 200.93 70.49% 11.96%;
+
+    --primary: 160.88 82.47% 61.96%;
+    --primary-foreground: 200.93 70.49% 11.96%;
+
+    --card: 165.00 80.00% 98.04%;
+    --card-foreground: 200.93 70.49% 11.96%;
+
+    --popover: 0.00 0.00% 100.00%;
+    --popover-foreground: 161.25 50.00% 6.27%;
+
+    --secondary: 162.50 80.00% 94.12%;
+    --secondary-foreground: 0.00 0.00% 0.00%;
+
+    --muted: 161.25 80.00% 96.08%;
+    --muted-foreground: 0.00 0.00% 40.00%;
+
+    --accent: 161.25 80.00% 96.08%;
+    --accent-foreground: 160.00 50.00% 9.41%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 159.38 84.21% 92.55%;
+    --input: 162.00 22.73% 82.75%;
+    --ring: 160.88 82.47% 61.96%;
+
+    --chart-1: 160.88 82.47% 61.96%;
+    --chart-2: 160.59 82.93% 67.84%;
+    --chart-3: 160.96 82.54% 75.29%;
+    --chart-4: 160.91 83.02% 79.22%;
+    --chart-5: 160.83 81.82% 82.75%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 200.93 70.49% 11.96%;
+    --foreground: 162.50 80.00% 94.12%;
+
+    --primary: 160.88 82.47% 61.96%;
+    --primary-foreground: 161.25 50.00% 6.27%;
+
+    --card: 160.00 18.75% 6.27%;
+    --card-foreground: 162.50 80.00% 94.12%;
+
+    --popover: 0.00 0.00% 0.00%;
+    --popover-foreground: 162.50 80.00% 94.12%;
+
+    --secondary: 160.71 50.91% 21.57%;
+    --secondary-foreground: 0.00 0.00% 100.00%;
+
+    --muted: 0.00 0.00% 9.80%;
+    --muted-foreground: 0.00 0.00% 87.06%;
+
+    --accent: 160.71 50.91% 21.57%;
+    --accent-foreground: 162.50 80.00% 94.12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 159.38 50.00% 12.55%;
+    --input: 161.25 14.81% 21.18%;
+    --ring: 160.88 82.47% 61.96%;
+
+    --chart-1: 160.88 82.47% 61.96%;
+    --chart-2: 161.03 56.20% 52.55%;
+    --chart-3: 160.96 50.49% 40.39%;
+    --chart-4: 160.91 50.57% 34.12%;
+    --chart-5: 160.83 50.70% 27.84%;
+
+    --radius: 0.5rem;
+  }
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
