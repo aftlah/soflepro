@@ -1,0 +1,382 @@
+[
+    {
+        "title": "Belajar Java [Dasar] - 01 - Apa itu Java?",
+        "url": "https://www.youtube.com/watch?v=uHyfQV0kbgo",
+        "thumbnail": "https://i.ytimg.com/vi/uHyfQV0kbgo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 02 - Cara Kerja Java",
+        "url": "https://www.youtube.com/watch?v=OrgFwUl2tzQ",
+        "thumbnail": "https://i.ytimg.com/vi/OrgFwUl2tzQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03a - Setup IDE IntelliJ IDEA Windows",
+        "url": "https://www.youtube.com/watch?v=-09UiNKwpok",
+        "thumbnail": "https://i.ytimg.com/vi/-09UiNKwpok/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03b - Setup IDE Netbeans Windows",
+        "url": "https://www.youtube.com/watch?v=B1cDwfxs1VM",
+        "thumbnail": "https://i.ytimg.com/vi/B1cDwfxs1VM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03c - Setup IDE Eclipse Windows",
+        "url": "https://www.youtube.com/watch?v=LwWzmEIibwM",
+        "thumbnail": "https://i.ytimg.com/vi/LwWzmEIibwM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03d - Setup IDE IntelliJ IDEA Mac",
+        "url": "https://www.youtube.com/watch?v=_c-aqERsQTY",
+        "thumbnail": "https://i.ytimg.com/vi/_c-aqERsQTY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03e - Setup IDE Netbeans Mac",
+        "url": "https://www.youtube.com/watch?v=Eww6g1RpIi0",
+        "thumbnail": "https://i.ytimg.com/vi/Eww6g1RpIi0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03f - Setup IDE Eclipse Mac",
+        "url": "https://www.youtube.com/watch?v=eY5pTLeYUWU",
+        "thumbnail": "https://i.ytimg.com/vi/eY5pTLeYUWU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03g - Setup IDE IntelliJ IDEA Ubuntu",
+        "url": "https://www.youtube.com/watch?v=ue4ydjw6Xsc",
+        "thumbnail": "https://i.ytimg.com/vi/ue4ydjw6Xsc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03h - Setup IDE Netbeans Ubuntu",
+        "url": "https://www.youtube.com/watch?v=JllVTI5Pgm0",
+        "thumbnail": "https://i.ytimg.com/vi/JllVTI5Pgm0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 03i - Setup IDE Eclipse Ubuntu",
+        "url": "https://www.youtube.com/watch?v=JBLJb81opEw",
+        "thumbnail": "https://i.ytimg.com/vi/JBLJb81opEw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 04 - Memahami Struktur Program",
+        "url": "https://www.youtube.com/watch?v=s7x4oB_7wrk",
+        "thumbnail": "https://i.ytimg.com/vi/s7x4oB_7wrk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 05 - Organisasi Program dengan Package",
+        "url": "https://www.youtube.com/watch?v=VqCQmEdF7E8",
+        "thumbnail": "https://i.ytimg.com/vi/VqCQmEdF7E8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 06 - Pengenalan Print dan Alur Eksekusi",
+        "url": "https://www.youtube.com/watch?v=sNgYNAQI8mw",
+        "thumbnail": "https://i.ytimg.com/vi/sNgYNAQI8mw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 07 - Memahami String[ ] args",
+        "url": "https://www.youtube.com/watch?v=xF5xujaKLPE",
+        "thumbnail": "https://i.ytimg.com/vi/xF5xujaKLPE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 08 - Variabel, Assignment dan Deklarasi",
+        "url": "https://www.youtube.com/watch?v=ddK6hExKhmM",
+        "thumbnail": "https://i.ytimg.com/vi/ddK6hExKhmM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 09 - Tipe data fundamental atau Primitive",
+        "url": "https://www.youtube.com/watch?v=IRis_1jMi1w",
+        "thumbnail": "https://i.ytimg.com/vi/IRis_1jMi1w/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 10 - Operator Aritmatika",
+        "url": "https://www.youtube.com/watch?v=FlbBdWUC0YU",
+        "thumbnail": "https://i.ytimg.com/vi/FlbBdWUC0YU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 11 - Konversi tipe data numeric",
+        "url": "https://www.youtube.com/watch?v=-dxnFRmWFKk",
+        "thumbnail": "https://i.ytimg.com/vi/-dxnFRmWFKk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 12 - Operator Unary (Decrement dan Increment)",
+        "url": "https://www.youtube.com/watch?v=3BpGUsTyu0Y",
+        "thumbnail": "https://i.ytimg.com/vi/3BpGUsTyu0Y/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 13 - Operator Assignments",
+        "url": "https://www.youtube.com/watch?v=m7_Lves967A",
+        "thumbnail": "https://i.ytimg.com/vi/m7_Lves967A/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 14 - Operator Komparasi",
+        "url": "https://www.youtube.com/watch?v=KiQDo3yZDnI",
+        "thumbnail": "https://i.ytimg.com/vi/KiQDo3yZDnI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 15 - Operator Logika",
+        "url": "https://www.youtube.com/watch?v=wOnpqaWVM3E",
+        "thumbnail": "https://i.ytimg.com/vi/wOnpqaWVM3E/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 16 - Operator Bitwise",
+        "url": "https://www.youtube.com/watch?v=Hgn6Tu1HTtI",
+        "thumbnail": "https://i.ytimg.com/vi/Hgn6Tu1HTtI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 17 - Mengambil user input (Scanner) dan latihan aritmatika",
+        "url": "https://www.youtube.com/watch?v=MinJPloJCzo",
+        "thumbnail": "https://i.ytimg.com/vi/MinJPloJCzo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 18 - Pengelompokan operasi aritmatika",
+        "url": "https://www.youtube.com/watch?v=0RmblJl5Ifo",
+        "thumbnail": "https://i.ytimg.com/vi/0RmblJl5Ifo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 19 - Latihan Operator Logika",
+        "url": "https://www.youtube.com/watch?v=ubVGfEdnjQw",
+        "thumbnail": "https://i.ytimg.com/vi/ubVGfEdnjQw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 20 - If Else Statement",
+        "url": "https://www.youtube.com/watch?v=492A2poEoow",
+        "thumbnail": "https://i.ytimg.com/vi/492A2poEoow/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 21 - IF Else IF statement",
+        "url": "https://www.youtube.com/watch?v=yGrD2uZnvQo",
+        "thumbnail": "https://i.ytimg.com/vi/yGrD2uZnvQo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 22 - IF Bersarang (nested IF)",
+        "url": "https://www.youtube.com/watch?v=yrGPuZB1SsA",
+        "thumbnail": "https://i.ytimg.com/vi/yrGPuZB1SsA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 23 - Switch Case",
+        "url": "https://www.youtube.com/watch?v=_OwCDThM3EI",
+        "thumbnail": "https://i.ytimg.com/vi/_OwCDThM3EI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 24 - Ternary Operator",
+        "url": "https://www.youtube.com/watch?v=swDXko04U1E",
+        "thumbnail": "https://i.ytimg.com/vi/swDXko04U1E/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 25 - Latihan Kalkulator (if else)",
+        "url": "https://www.youtube.com/watch?v=kisN2fiu_0s",
+        "thumbnail": "https://i.ytimg.com/vi/kisN2fiu_0s/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 26 - Latihan Kalkulator (Switch Case)",
+        "url": "https://www.youtube.com/watch?v=f3-AXEwX4Ck",
+        "thumbnail": "https://i.ytimg.com/vi/f3-AXEwX4Ck/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 27 - While Loop",
+        "url": "https://www.youtube.com/watch?v=KcsFEZerRDk",
+        "thumbnail": "https://i.ytimg.com/vi/KcsFEZerRDk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 28 - Do While Loop",
+        "url": "https://www.youtube.com/watch?v=E9khhPRn8aQ",
+        "thumbnail": "https://i.ytimg.com/vi/E9khhPRn8aQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 29 - For Loop",
+        "url": "https://www.youtube.com/watch?v=OAiZZqiSzxo",
+        "thumbnail": "https://i.ytimg.com/vi/OAiZZqiSzxo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 30 - Latihan Looping Sederhana",
+        "url": "https://www.youtube.com/watch?v=l4ovzw8TRIU",
+        "thumbnail": "https://i.ytimg.com/vi/l4ovzw8TRIU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 31 - Latihan Looping deret Fibonacci",
+        "url": "https://www.youtube.com/watch?v=fJnFt9UbdE0",
+        "thumbnail": "https://i.ytimg.com/vi/fJnFt9UbdE0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 32 - Break, Continue, dan Return (Control Flow)",
+        "url": "https://www.youtube.com/watch?v=m_PRvbmbtFc",
+        "thumbnail": "https://i.ytimg.com/vi/m_PRvbmbtFc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 33 - Looping Bersarang (Kotak dan Segitiga)",
+        "url": "https://www.youtube.com/watch?v=5BTDCPuC8EI",
+        "thumbnail": "https://i.ytimg.com/vi/5BTDCPuC8EI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 34 - Pengenalan Fungsi atau Method",
+        "url": "https://www.youtube.com/watch?v=gHEXYYS-KAo",
+        "thumbnail": "https://i.ytimg.com/vi/gHEXYYS-KAo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 35 - Fungsi atau Method void",
+        "url": "https://www.youtube.com/watch?v=e115F5I6eBk",
+        "thumbnail": "https://i.ytimg.com/vi/e115F5I6eBk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 36 - Latihan Fungsi, menghitung dan menggambar",
+        "url": "https://www.youtube.com/watch?v=8NKsLqqtzvQ",
+        "thumbnail": "https://i.ytimg.com/vi/8NKsLqqtzvQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 37 - Fungsi Rekursif (recursive)",
+        "url": "https://www.youtube.com/watch?v=wdrSmK18nj4",
+        "thumbnail": "https://i.ytimg.com/vi/wdrSmK18nj4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 38 - Rekursif Bercabang",
+        "url": "https://www.youtube.com/watch?v=TsUMDFJEx7I",
+        "thumbnail": "https://i.ytimg.com/vi/TsUMDFJEx7I/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 39 - Overload Method / Fungsi",
+        "url": "https://www.youtube.com/watch?v=e63lu5nL9Ak",
+        "thumbnail": "https://i.ytimg.com/vi/e63lu5nL9Ak/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 40 - Pengenalan Array",
+        "url": "https://www.youtube.com/watch?v=S7s7yIPUn_s",
+        "thumbnail": "https://i.ytimg.com/vi/S7s7yIPUn_s/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 41 - Looping Array dengan For Each",
+        "url": "https://www.youtube.com/watch?v=aZ_Mjfy_eeE",
+        "thumbnail": "https://i.ytimg.com/vi/aZ_Mjfy_eeE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 42 - Mengenal Array Lebih Dalam (Pass by Reference)",
+        "url": "https://www.youtube.com/watch?v=Oa4FvgsCByw",
+        "thumbnail": "https://i.ytimg.com/vi/Oa4FvgsCByw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 43 - Operasi pada array",
+        "url": "https://www.youtube.com/watch?v=JoMCHfbiAvA",
+        "thumbnail": "https://i.ytimg.com/vi/JoMCHfbiAvA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 44 - Latihan Array",
+        "url": "https://www.youtube.com/watch?v=xkVh0V5ng-g",
+        "thumbnail": "https://i.ytimg.com/vi/xkVh0V5ng-g/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 45 - Array Multi Dimensi",
+        "url": "https://www.youtube.com/watch?v=RN-ZVxdSWSM",
+        "thumbnail": "https://i.ytimg.com/vi/RN-ZVxdSWSM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 46 - Array Multi Dimensi Lebih Dalam",
+        "url": "https://www.youtube.com/watch?v=oyBykjrNO_U",
+        "thumbnail": "https://i.ytimg.com/vi/oyBykjrNO_U/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 47 - Latihan Array 2D ( Operasi Matrix )",
+        "url": "https://www.youtube.com/watch?v=4QidPblYfLA",
+        "thumbnail": "https://i.ytimg.com/vi/4QidPblYfLA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 48 - Pengenalan String",
+        "url": "https://www.youtube.com/watch?v=BAtdw48XTMc",
+        "thumbnail": "https://i.ytimg.com/vi/BAtdw48XTMc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 49 - Operasi String",
+        "url": "https://www.youtube.com/watch?v=85LZQWmEzPk",
+        "thumbnail": "https://i.ytimg.com/vi/85LZQWmEzPk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 50 - String Builder",
+        "url": "https://www.youtube.com/watch?v=t5PZmm29Pno",
+        "thumbnail": "https://i.ytimg.com/vi/t5PZmm29Pno/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 51 - Format String",
+        "url": "https://www.youtube.com/watch?v=URisehAZB7k",
+        "thumbnail": "https://i.ytimg.com/vi/URisehAZB7k/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 52 - Mengenal Exception - Try, Catch, dan Finally",
+        "url": "https://www.youtube.com/watch?v=u0EnKP6SdNM",
+        "thumbnail": "https://i.ytimg.com/vi/u0EnKP6SdNM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 53 - Exception pada method (rantai exception)",
+        "url": "https://www.youtube.com/watch?v=MACrl1oNLhc",
+        "thumbnail": "https://i.ytimg.com/vi/MACrl1oNLhc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 54 - Pengenalan I/O Stream, input file",
+        "url": "https://www.youtube.com/watch?v=YKnhpdWxp54",
+        "thumbnail": "https://i.ytimg.com/vi/YKnhpdWxp54/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 55 - Byte Stream | File Input dan Output",
+        "url": "https://www.youtube.com/watch?v=0suOOClnvaE",
+        "thumbnail": "https://i.ytimg.com/vi/0suOOClnvaE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 56 - Character Stream | File Input dan Output",
+        "url": "https://www.youtube.com/watch?v=Zh3h_O8F2rw",
+        "thumbnail": "https://i.ytimg.com/vi/Zh3h_O8F2rw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 57 - Buffered Byte Stream",
+        "url": "https://www.youtube.com/watch?v=at3v8GLlwXA",
+        "thumbnail": "https://i.ytimg.com/vi/at3v8GLlwXA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 58 - Buffered Character Stream",
+        "url": "https://www.youtube.com/watch?v=KQwIcmm8XzY",
+        "thumbnail": "https://i.ytimg.com/vi/KQwIcmm8XzY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 59 - Scanner dan String Tokenizer",
+        "url": "https://www.youtube.com/watch?v=1NhUY7j7px8",
+        "thumbnail": "https://i.ytimg.com/vi/1NhUY7j7px8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 60 - Project CRUD (part 1) - Main Menu",
+        "url": "https://www.youtube.com/watch?v=XIhlH-t5HL0",
+        "thumbnail": "https://i.ytimg.com/vi/XIhlH-t5HL0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 61 - Project CRUD (part 2) - Read Data",
+        "url": "https://www.youtube.com/watch?v=gfTOt5dzA0s",
+        "thumbnail": "https://i.ytimg.com/vi/gfTOt5dzA0s/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 62 - Project CRUD (part 3) - Cari Data",
+        "url": "https://www.youtube.com/watch?v=LA4nC3fX1SM",
+        "thumbnail": "https://i.ytimg.com/vi/LA4nC3fX1SM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 63 - Project CRUD (part 4) - Tambah Data",
+        "url": "https://www.youtube.com/watch?v=jMB-15M01WI",
+        "thumbnail": "https://i.ytimg.com/vi/jMB-15M01WI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 64 - Project CRUD (part 5) - Delete Data",
+        "url": "https://www.youtube.com/watch?v=zeWM5JzXnFA",
+        "thumbnail": "https://i.ytimg.com/vi/zeWM5JzXnFA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 65 - Project CRUD (part 6) - Update Data",
+        "url": "https://www.youtube.com/watch?v=Ohpt6VxkBlY",
+        "thumbnail": "https://i.ytimg.com/vi/Ohpt6VxkBlY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 66 -  Access Modifier dan Multi File",
+        "url": "https://www.youtube.com/watch?v=GSQyfc1HkKM",
+        "thumbnail": "https://i.ytimg.com/vi/GSQyfc1HkKM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java [Dasar] - 67 - Project CRUD (part 7) - Finalisasi dengan Multi File",
+        "url": "https://www.youtube.com/watch?v=tnzKlYoke1U",
+        "thumbnail": "https://i.ytimg.com/vi/tnzKlYoke1U/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Java Outro - Final",
+        "url": "https://www.youtube.com/watch?v=b8MCl3fXEFg",
+        "thumbnail": "https://i.ytimg.com/vi/b8MCl3fXEFg/maxresdefault.jpg"
+    }
+]

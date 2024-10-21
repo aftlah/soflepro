@@ -1,0 +1,367 @@
+[
+    {
+        "title": "Belajar Python [Dasar] - 01 - Apa Itu Python",
+        "url": "https://www.youtube.com/watch?v=iA8lLwmtKQM",
+        "thumbnail": "https://i.ytimg.com/vi/iA8lLwmtKQM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 02a - Installasi Python dan VS Code di Windows",
+        "url": "https://www.youtube.com/watch?v=xETkm9H6aaY",
+        "thumbnail": "https://i.ytimg.com/vi/xETkm9H6aaY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 02b - Installasi Python dan VS Code di MacOS",
+        "url": "https://www.youtube.com/watch?v=HSAm6s10G7g",
+        "thumbnail": "https://i.ytimg.com/vi/HSAm6s10G7g/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 03 - Cara Kerja Program dan bytecode",
+        "url": "https://www.youtube.com/watch?v=-auWrbiaoGc",
+        "thumbnail": "https://i.ytimg.com/vi/-auWrbiaoGc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 04 - Mengenal Variabel",
+        "url": "https://www.youtube.com/watch?v=gxmTFXfrMzk",
+        "thumbnail": "https://i.ytimg.com/vi/gxmTFXfrMzk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 05 - Tipe Data",
+        "url": "https://www.youtube.com/watch?v=b3X0CH98Y9g",
+        "thumbnail": "https://i.ytimg.com/vi/b3X0CH98Y9g/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 06 - Casting Tipe Data",
+        "url": "https://www.youtube.com/watch?v=3d8JbMafZOY",
+        "thumbnail": "https://i.ytimg.com/vi/3d8JbMafZOY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 07 - Mengambil Input Data dari User",
+        "url": "https://www.youtube.com/watch?v=Ar1xxIsyuvI",
+        "thumbnail": "https://i.ytimg.com/vi/Ar1xxIsyuvI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 08 - Operasi Aritmatika",
+        "url": "https://www.youtube.com/watch?v=RoDGGTWbKK4",
+        "thumbnail": "https://i.ytimg.com/vi/RoDGGTWbKK4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 09 - Latihan Perhitungan Sederhana",
+        "url": "https://www.youtube.com/watch?v=SmiUsrGTnpY",
+        "thumbnail": "https://i.ytimg.com/vi/SmiUsrGTnpY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 10 - Operasi Komparasi",
+        "url": "https://www.youtube.com/watch?v=Kv_lDWq8kCc",
+        "thumbnail": "https://i.ytimg.com/vi/Kv_lDWq8kCc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 11 - Operasi Logika atau Boolean",
+        "url": "https://www.youtube.com/watch?v=Sl7zqPpC2VI",
+        "thumbnail": "https://i.ytimg.com/vi/Sl7zqPpC2VI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 12 - Latihan Komparasi dan Logika",
+        "url": "https://www.youtube.com/watch?v=-FqgZRDRuIM",
+        "thumbnail": "https://i.ytimg.com/vi/-FqgZRDRuIM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 13 - Operator Bitwise",
+        "url": "https://www.youtube.com/watch?v=-VrqfCGwr88",
+        "thumbnail": "https://i.ytimg.com/vi/-VrqfCGwr88/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 14 - Operator Assignment",
+        "url": "https://www.youtube.com/watch?v=49KDyhzgCmA",
+        "thumbnail": "https://i.ytimg.com/vi/49KDyhzgCmA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 15 - Pengenalan String",
+        "url": "https://www.youtube.com/watch?v=fhAEh1Z9YuY",
+        "thumbnail": "https://i.ytimg.com/vi/fhAEh1Z9YuY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 16 - Operasi dan manipulasi string (part 1)",
+        "url": "https://www.youtube.com/watch?v=MPvC9uWATLI",
+        "thumbnail": "https://i.ytimg.com/vi/MPvC9uWATLI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 17 - Operasi dan manipulasi string (part 2)",
+        "url": "https://www.youtube.com/watch?v=ORda-LwrEwE",
+        "thumbnail": "https://i.ytimg.com/vi/ORda-LwrEwE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 18 - Format String",
+        "url": "https://www.youtube.com/watch?v=D66WxqZnjXg",
+        "thumbnail": "https://i.ytimg.com/vi/D66WxqZnjXg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 19 - String width and Alignment",
+        "url": "https://www.youtube.com/watch?v=q9GW5rzOMu4",
+        "thumbnail": "https://i.ytimg.com/vi/q9GW5rzOMu4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 20 - Latihan Date and Time",
+        "url": "https://www.youtube.com/watch?v=n9vTAmq3GHE",
+        "thumbnail": "https://i.ytimg.com/vi/n9vTAmq3GHE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 21 - IF dan ELSE Statement",
+        "url": "https://www.youtube.com/watch?v=rF8rh40z_X0",
+        "thumbnail": "https://i.ytimg.com/vi/rF8rh40z_X0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 22 - ELIF Statement",
+        "url": "https://www.youtube.com/watch?v=ICowoqcLp4E",
+        "thumbnail": "https://i.ytimg.com/vi/ICowoqcLp4E/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 23 - Latihan Percabangan - Kalkulator Sederhana",
+        "url": "https://www.youtube.com/watch?v=61OgFKJim6E",
+        "thumbnail": "https://i.ytimg.com/vi/61OgFKJim6E/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 24 - For Loop (Perulangan)",
+        "url": "https://www.youtube.com/watch?v=Z4qfMhx4XzQ",
+        "thumbnail": "https://i.ytimg.com/vi/Z4qfMhx4XzQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 25 - While Loop (Perulangan)",
+        "url": "https://www.youtube.com/watch?v=ZupffvoCChQ",
+        "thumbnail": "https://i.ytimg.com/vi/ZupffvoCChQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 26 - Continue dan Pass",
+        "url": "https://www.youtube.com/watch?v=hGvikdHVRME",
+        "thumbnail": "https://i.ytimg.com/vi/hGvikdHVRME/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 27 - Break",
+        "url": "https://www.youtube.com/watch?v=B6scLunzn0I",
+        "thumbnail": "https://i.ytimg.com/vi/B6scLunzn0I/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 28 - Latihan Perulangan",
+        "url": "https://www.youtube.com/watch?v=szyfqq_whIg",
+        "thumbnail": "https://i.ytimg.com/vi/szyfqq_whIg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 29 - List",
+        "url": "https://www.youtube.com/watch?v=tERK7b5Woqs",
+        "thumbnail": "https://i.ytimg.com/vi/tERK7b5Woqs/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 30 - Manipulasi List",
+        "url": "https://www.youtube.com/watch?v=Xqvui6Bmrj0",
+        "thumbnail": "https://i.ytimg.com/vi/Xqvui6Bmrj0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 31 - Operasi List",
+        "url": "https://www.youtube.com/watch?v=HVyMl3GIw20",
+        "thumbnail": "https://i.ytimg.com/vi/HVyMl3GIw20/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 32 - Copy List",
+        "url": "https://www.youtube.com/watch?v=mATeKWmB7YM",
+        "thumbnail": "https://i.ytimg.com/vi/mATeKWmB7YM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 33 - Nested List / List Bersarang",
+        "url": "https://www.youtube.com/watch?v=u3xOkmxzeBE",
+        "thumbnail": "https://i.ytimg.com/vi/u3xOkmxzeBE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 34 - Deep Copy Nested List",
+        "url": "https://www.youtube.com/watch?v=scxyFiudGug",
+        "thumbnail": "https://i.ytimg.com/vi/scxyFiudGug/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 35 - Looping List dan Enumerate",
+        "url": "https://www.youtube.com/watch?v=gyO6OzzMtJs",
+        "thumbnail": "https://i.ytimg.com/vi/gyO6OzzMtJs/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 36 - Latihan List",
+        "url": "https://www.youtube.com/watch?v=cS-VYthhO9A",
+        "thumbnail": "https://i.ytimg.com/vi/cS-VYthhO9A/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 37 - Tuples dan Set",
+        "url": "https://www.youtube.com/watch?v=BWQn2TQqvY8",
+        "thumbnail": "https://i.ytimg.com/vi/BWQn2TQqvY8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 38 - Dictionary",
+        "url": "https://www.youtube.com/watch?v=Z0hbtSr-Oaw",
+        "thumbnail": "https://i.ytimg.com/vi/Z0hbtSr-Oaw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 39 - Operasi Dictionary",
+        "url": "https://www.youtube.com/watch?v=6khlVRLJTl0",
+        "thumbnail": "https://i.ytimg.com/vi/6khlVRLJTl0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 40 - Looping Dictionary",
+        "url": "https://www.youtube.com/watch?v=tEqYmvykGII",
+        "thumbnail": "https://i.ytimg.com/vi/tEqYmvykGII/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 41 - Copy & Pop Dictionary",
+        "url": "https://www.youtube.com/watch?v=NTHdVRV2qhE",
+        "thumbnail": "https://i.ytimg.com/vi/NTHdVRV2qhE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 42 - Multi keys & Nesting Dictionary",
+        "url": "https://www.youtube.com/watch?v=rO-aLyWJ1Jk",
+        "thumbnail": "https://i.ytimg.com/vi/rO-aLyWJ1Jk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 43a - Latihan Dictionary Part 1",
+        "url": "https://www.youtube.com/watch?v=WLHNJCW62qo",
+        "thumbnail": "https://i.ytimg.com/vi/WLHNJCW62qo/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 43b - Latihan Dictionary Part 2",
+        "url": "https://www.youtube.com/watch?v=OrCG-jbyAO8",
+        "thumbnail": "https://i.ytimg.com/vi/OrCG-jbyAO8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 44 - Pengenalan Fungsi",
+        "url": "https://www.youtube.com/watch?v=ywE2eqG3-kc",
+        "thumbnail": "https://i.ytimg.com/vi/ywE2eqG3-kc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 45 - Fungsi dengan argument",
+        "url": "https://www.youtube.com/watch?v=wQwf5eKpxqs",
+        "thumbnail": "https://i.ytimg.com/vi/wQwf5eKpxqs/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 46 - Fungsi dengan return",
+        "url": "https://www.youtube.com/watch?v=ADcQu-8R0Ok",
+        "thumbnail": "https://i.ytimg.com/vi/ADcQu-8R0Ok/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 47 - Default Argument Fungsi",
+        "url": "https://www.youtube.com/watch?v=dZGr1bbfHZU",
+        "thumbnail": "https://i.ytimg.com/vi/dZGr1bbfHZU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 48 - Latihan Fungsi",
+        "url": "https://www.youtube.com/watch?v=AcyUE59S53U",
+        "thumbnail": "https://i.ytimg.com/vi/AcyUE59S53U/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 49 - Type Hints pada Fungsi",
+        "url": "https://www.youtube.com/watch?v=NR3m8VJA738",
+        "thumbnail": "https://i.ytimg.com/vi/NR3m8VJA738/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 50 - *args pada fungsi",
+        "url": "https://www.youtube.com/watch?v=mTlO4mFvD5A",
+        "thumbnail": "https://i.ytimg.com/vi/mTlO4mFvD5A/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 51 - **kwargs pada fungsi",
+        "url": "https://www.youtube.com/watch?v=2BSf8Kr-0cw",
+        "thumbnail": "https://i.ytimg.com/vi/2BSf8Kr-0cw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 52 - Anonymous dan Lambda Function",
+        "url": "https://www.youtube.com/watch?v=pZye35-Nx4o",
+        "thumbnail": "https://i.ytimg.com/vi/pZye35-Nx4o/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 53 - Global dan Local Scope",
+        "url": "https://www.youtube.com/watch?v=KzinFz7ExJ4",
+        "thumbnail": "https://i.ytimg.com/vi/KzinFz7ExJ4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 54 - Import Statement",
+        "url": "https://www.youtube.com/watch?v=bk3IYcuZyt8",
+        "thumbnail": "https://i.ytimg.com/vi/bk3IYcuZyt8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 55 - Membuat Module",
+        "url": "https://www.youtube.com/watch?v=N4XExIBYriI",
+        "thumbnail": "https://i.ytimg.com/vi/N4XExIBYriI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 56 - Membuat Package Sederhana",
+        "url": "https://www.youtube.com/watch?v=WVRMWH4EmfY",
+        "thumbnail": "https://i.ytimg.com/vi/WVRMWH4EmfY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 57 - __Init__.py pada Package",
+        "url": "https://www.youtube.com/watch?v=7GhxT1svylc",
+        "thumbnail": "https://i.ytimg.com/vi/7GhxT1svylc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 58 - Menggunakan Standard Library",
+        "url": "https://www.youtube.com/watch?v=LWIzgB8NOyk",
+        "thumbnail": "https://i.ytimg.com/vi/LWIzgB8NOyk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 59 - tkinter | Standard Library Python GUI",
+        "url": "https://www.youtube.com/watch?v=L4dbeLNDFlc",
+        "thumbnail": "https://i.ytimg.com/vi/L4dbeLNDFlc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 60 - Mengenal PIP",
+        "url": "https://www.youtube.com/watch?v=WL1d21PcDC8",
+        "thumbnail": "https://i.ytimg.com/vi/WL1d21PcDC8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 61 - Package Numpy | contoh PIP",
+        "url": "https://www.youtube.com/watch?v=y9fw9g6xSIU",
+        "thumbnail": "https://i.ytimg.com/vi/y9fw9g6xSIU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 62 - Explore Pygame",
+        "url": "https://www.youtube.com/watch?v=cQOhLpmR6CY",
+        "thumbnail": "https://i.ytimg.com/vi/cQOhLpmR6CY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 63 - __main__ sebagai gerbang program",
+        "url": "https://www.youtube.com/watch?v=XQThsEBvX_8",
+        "thumbnail": "https://i.ytimg.com/vi/XQThsEBvX_8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 64 - Read external file - Open dan With",
+        "url": "https://www.youtube.com/watch?v=9xiuFrL0wSw",
+        "thumbnail": "https://i.ytimg.com/vi/9xiuFrL0wSw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 65 - Write external file",
+        "url": "https://www.youtube.com/watch?v=3FfNwPIAtNw",
+        "thumbnail": "https://i.ytimg.com/vi/3FfNwPIAtNw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [Dasar] - 66 - Exception, Error, Try and Except",
+        "url": "https://www.youtube.com/watch?v=ObTWBJ4QCPQ",
+        "thumbnail": "https://i.ytimg.com/vi/ObTWBJ4QCPQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [PROJECT] - 67 - Persiapan",
+        "url": "https://www.youtube.com/watch?v=PmdQwH_NU3U",
+        "thumbnail": "https://i.ytimg.com/vi/PmdQwH_NU3U/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [PROJECT] - 68 - Init Database dan Read",
+        "url": "https://www.youtube.com/watch?v=Dz3BGBy0cEM",
+        "thumbnail": "https://i.ytimg.com/vi/Dz3BGBy0cEM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [PROJECT] - 69 - Create",
+        "url": "https://www.youtube.com/watch?v=TnZCxPbT1I8",
+        "thumbnail": "https://i.ytimg.com/vi/TnZCxPbT1I8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [PROJECT] - 70 - Update",
+        "url": "https://www.youtube.com/watch?v=nOH5fy3Wz2c",
+        "thumbnail": "https://i.ytimg.com/vi/nOH5fy3Wz2c/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar Python [PROJECT] - 71 - Delete",
+        "url": "https://www.youtube.com/watch?v=GSBZyHoJPuE",
+        "thumbnail": "https://i.ytimg.com/vi/GSBZyHoJPuE/maxresdefault.jpg"
+    }
+]

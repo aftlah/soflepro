@@ -1,0 +1,442 @@
+[
+    {
+        "title": "Belajar C++ [Dasar] - 01 - Apa itu C++",
+        "url": "https://www.youtube.com/watch?v=WtBF_-pLrjE",
+        "thumbnail": "https://i.ytimg.com/vi/WtBF_-pLrjE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 02 - Cara Kerja C++",
+        "url": "https://www.youtube.com/watch?v=kxarfCiubWc",
+        "thumbnail": "https://i.ytimg.com/vi/kxarfCiubWc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ - Instalasi Codeblocks - Windows",
+        "url": "https://www.youtube.com/watch?v=KSMQXpoBfzY",
+        "thumbnail": "https://i.ytimg.com/vi/KSMQXpoBfzY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ - Instalasi Visual Studio - Windows",
+        "url": "https://www.youtube.com/watch?v=UUX1vHGIcNQ",
+        "thumbnail": "https://i.ytimg.com/vi/UUX1vHGIcNQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ - Instalasi Sublime Text + MinGW - Windows",
+        "url": "https://www.youtube.com/watch?v=U9LfAoW8NXs",
+        "thumbnail": "https://i.ytimg.com/vi/U9LfAoW8NXs/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ - Instalasi XCode - Mac",
+        "url": "https://www.youtube.com/watch?v=2gAx6ttBef8",
+        "thumbnail": "https://i.ytimg.com/vi/2gAx6ttBef8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ -  Instalasi Sublime Text - Mac",
+        "url": "https://www.youtube.com/watch?v=ldPT9rCGaE8",
+        "thumbnail": "https://i.ytimg.com/vi/ldPT9rCGaE8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 03 - Memahami Program dan Compiler",
+        "url": "https://www.youtube.com/watch?v=Wzxknjyd3hE",
+        "thumbnail": "https://i.ytimg.com/vi/Wzxknjyd3hE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 04 - Preprocessing, Compiling, dan Linking",
+        "url": "https://www.youtube.com/watch?v=jnRKv873Y0k",
+        "thumbnail": "https://i.ytimg.com/vi/jnRKv873Y0k/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 05 - Review dan Recap Cara Menjalankan Program C++",
+        "url": "https://www.youtube.com/watch?v=6gfNGzDfn7w",
+        "thumbnail": "https://i.ytimg.com/vi/6gfNGzDfn7w/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 06 - Printing pada Console",
+        "url": "https://www.youtube.com/watch?v=Bt7xPtON9NE",
+        "thumbnail": "https://i.ytimg.com/vi/Bt7xPtON9NE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 07 - Variabel",
+        "url": "https://www.youtube.com/watch?v=vnYWr7jFl5M",
+        "thumbnail": "https://i.ytimg.com/vi/vnYWr7jFl5M/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 08 - Deklarasi dan Cin",
+        "url": "https://www.youtube.com/watch?v=-N-iONms8uw",
+        "thumbnail": "https://i.ytimg.com/vi/-N-iONms8uw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 09 - Tipe Data Fundamental",
+        "url": "https://www.youtube.com/watch?v=Ei3nBpyTtew",
+        "thumbnail": "https://i.ytimg.com/vi/Ei3nBpyTtew/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 10 - Aritmatika",
+        "url": "https://www.youtube.com/watch?v=bxNqTu4N-Is",
+        "thumbnail": "https://i.ytimg.com/vi/bxNqTu4N-Is/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 11 - Komparasi",
+        "url": "https://www.youtube.com/watch?v=rgdgn4yFg18",
+        "thumbnail": "https://i.ytimg.com/vi/rgdgn4yFg18/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 12 - Operator Logika, and, or, dan not",
+        "url": "https://www.youtube.com/watch?v=k9nBTzvba34",
+        "thumbnail": "https://i.ytimg.com/vi/k9nBTzvba34/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 13 - if Statement",
+        "url": "https://www.youtube.com/watch?v=6dAAX5B85PM",
+        "thumbnail": "https://i.ytimg.com/vi/6dAAX5B85PM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 14 - if else",
+        "url": "https://www.youtube.com/watch?v=-9IyBehKm4g",
+        "thumbnail": "https://i.ytimg.com/vi/-9IyBehKm4g/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 15 - switch case",
+        "url": "https://www.youtube.com/watch?v=u5DpGWeVSG8",
+        "thumbnail": "https://i.ytimg.com/vi/u5DpGWeVSG8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 16 - Latihan membuat calculator",
+        "url": "https://www.youtube.com/watch?v=v9X2Y_w3S5g",
+        "thumbnail": "https://i.ytimg.com/vi/v9X2Y_w3S5g/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 17 - Operator Assignment",
+        "url": "https://www.youtube.com/watch?v=NAFebwdmMes",
+        "thumbnail": "https://i.ytimg.com/vi/NAFebwdmMes/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 18 - Increment dan Decrement",
+        "url": "https://www.youtube.com/watch?v=cmKs-eEsHfY",
+        "thumbnail": "https://i.ytimg.com/vi/cmKs-eEsHfY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 19 - While Loop",
+        "url": "https://www.youtube.com/watch?v=kO8iL-yR6uA",
+        "thumbnail": "https://i.ytimg.com/vi/kO8iL-yR6uA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 20 - Do While Loop",
+        "url": "https://www.youtube.com/watch?v=Pzy3XWzORNw",
+        "thumbnail": "https://i.ytimg.com/vi/Pzy3XWzORNw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 21 - For Loop",
+        "url": "https://www.youtube.com/watch?v=ZeqJewFm7zc",
+        "thumbnail": "https://i.ytimg.com/vi/ZeqJewFm7zc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 22 - break dan continue",
+        "url": "https://www.youtube.com/watch?v=we9-GLwXqzk",
+        "thumbnail": "https://i.ytimg.com/vi/we9-GLwXqzk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 23 - Latihan Deret Fibonacci",
+        "url": "https://www.youtube.com/watch?v=sXHQ35GLxEM",
+        "thumbnail": "https://i.ytimg.com/vi/sXHQ35GLxEM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 24 - Latihan membuat Segitiga Siku-Siku",
+        "url": "https://www.youtube.com/watch?v=-p9d5RsIHvU",
+        "thumbnail": "https://i.ytimg.com/vi/-p9d5RsIHvU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 25 - Latihan Membuat Segitiga Sama Kaki",
+        "url": "https://www.youtube.com/watch?v=3ZLKZ6HaULU",
+        "thumbnail": "https://i.ytimg.com/vi/3ZLKZ6HaULU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 26 - Fungsi (Pengenalan)",
+        "url": "https://www.youtube.com/watch?v=iTUO1DWVUv8",
+        "thumbnail": "https://i.ytimg.com/vi/iTUO1DWVUv8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 27 - Latihan Dadu Acak (Fungsi built-in)",
+        "url": "https://www.youtube.com/watch?v=YH6xbn-Yp8k",
+        "thumbnail": "https://i.ytimg.com/vi/YH6xbn-Yp8k/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 28 - Fungsi Dengan Kembalian (return)",
+        "url": "https://www.youtube.com/watch?v=LXZimpRJwno",
+        "thumbnail": "https://i.ytimg.com/vi/LXZimpRJwno/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 29 - Void | Fungsi Tanpa Kembalian",
+        "url": "https://www.youtube.com/watch?v=4R4QZhsb8lQ",
+        "thumbnail": "https://i.ytimg.com/vi/4R4QZhsb8lQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 30 - Latihan Fungsi Luas dan Keliling Persegi Panjang",
+        "url": "https://www.youtube.com/watch?v=kVzPdhd0FJM",
+        "thumbnail": "https://i.ytimg.com/vi/kVzPdhd0FJM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 31 - Prototipe Fungsi",
+        "url": "https://www.youtube.com/watch?v=ehopPCb-Q8Y",
+        "thumbnail": "https://i.ytimg.com/vi/ehopPCb-Q8Y/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 32  - Scope Variabel (Global, Lokal, dan Block)",
+        "url": "https://www.youtube.com/watch?v=RElB-9YjIZA",
+        "thumbnail": "https://i.ytimg.com/vi/RElB-9YjIZA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 33 - Default argumen pada fungsi",
+        "url": "https://www.youtube.com/watch?v=9Xl333kV3GY",
+        "thumbnail": "https://i.ytimg.com/vi/9Xl333kV3GY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 34 - Overloading sebuah fungsi",
+        "url": "https://www.youtube.com/watch?v=0m1QoljhO5o",
+        "thumbnail": "https://i.ytimg.com/vi/0m1QoljhO5o/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 35 - Fungsi Rekursif",
+        "url": "https://www.youtube.com/watch?v=EtyLyC8PHTA",
+        "thumbnail": "https://i.ytimg.com/vi/EtyLyC8PHTA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 36 - Latihan Rekursif - Faktorial",
+        "url": "https://www.youtube.com/watch?v=g_MhGX4YceE",
+        "thumbnail": "https://i.ytimg.com/vi/g_MhGX4YceE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 37 - Latihan Rekursif - Fibonacci",
+        "url": "https://www.youtube.com/watch?v=39LbNauYJ28",
+        "thumbnail": "https://i.ytimg.com/vi/39LbNauYJ28/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 38 - Pointer",
+        "url": "https://www.youtube.com/watch?v=O1kWNj5Ikro",
+        "thumbnail": "https://i.ytimg.com/vi/O1kWNj5Ikro/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 39 - Reference",
+        "url": "https://www.youtube.com/watch?v=PftZkpzPdTc",
+        "thumbnail": "https://i.ytimg.com/vi/PftZkpzPdTc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 40 - Fungsi dengan Pointer",
+        "url": "https://www.youtube.com/watch?v=ah8RcGXoK5A",
+        "thumbnail": "https://i.ytimg.com/vi/ah8RcGXoK5A/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 41 - Fungsi dengan Reference",
+        "url": "https://www.youtube.com/watch?v=fAiI6_ppKzg",
+        "thumbnail": "https://i.ytimg.com/vi/fAiI6_ppKzg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 42 - Pendahuluan Array",
+        "url": "https://www.youtube.com/watch?v=8WhUADLI4RQ",
+        "thumbnail": "https://i.ytimg.com/vi/8WhUADLI4RQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 43 - Array || Standard Library",
+        "url": "https://www.youtube.com/watch?v=o1DegduG140",
+        "thumbnail": "https://i.ytimg.com/vi/o1DegduG140/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 44 - Latihan Array",
+        "url": "https://www.youtube.com/watch?v=PGV8VigBVcg",
+        "thumbnail": "https://i.ytimg.com/vi/PGV8VigBVcg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 45 - Looping Array",
+        "url": "https://www.youtube.com/watch?v=5jTGrD55Ws4",
+        "thumbnail": "https://i.ytimg.com/vi/5jTGrD55Ws4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 46 - Multidimensi Array | Built-in",
+        "url": "https://www.youtube.com/watch?v=-hsKUD4fVRE",
+        "thumbnail": "https://i.ytimg.com/vi/-hsKUD4fVRE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 47 - Multidimensi Array | Standard Library",
+        "url": "https://www.youtube.com/watch?v=3d9jG9V6ouM",
+        "thumbnail": "https://i.ytimg.com/vi/3d9jG9V6ouM/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 48 - Sort Array | std library",
+        "url": "https://www.youtube.com/watch?v=G0cml-wvaBc",
+        "thumbnail": "https://i.ytimg.com/vi/G0cml-wvaBc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 49 - Search Array | std library",
+        "url": "https://www.youtube.com/watch?v=QFC4DXvRu8o",
+        "thumbnail": "https://i.ytimg.com/vi/QFC4DXvRu8o/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 50 - Pengenalan String",
+        "url": "https://www.youtube.com/watch?v=DpVq7KUHjgY",
+        "thumbnail": "https://i.ytimg.com/vi/DpVq7KUHjgY/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 51 - Operasi pada String",
+        "url": "https://www.youtube.com/watch?v=Sq3_mzqdFj0",
+        "thumbnail": "https://i.ytimg.com/vi/Sq3_mzqdFj0/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 52 - Komparasi atau Perbandingan String",
+        "url": "https://www.youtube.com/watch?v=iXWYWFZfP98",
+        "thumbnail": "https://i.ytimg.com/vi/iXWYWFZfP98/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 53 - Akses Substring",
+        "url": "https://www.youtube.com/watch?v=OpodtuA0xyI",
+        "thumbnail": "https://i.ytimg.com/vi/OpodtuA0xyI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 54 - Substitusi String",
+        "url": "https://www.youtube.com/watch?v=Sq-Efm6vRYA",
+        "thumbnail": "https://i.ytimg.com/vi/Sq-Efm6vRYA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 55 - GetLine Console String",
+        "url": "https://www.youtube.com/watch?v=FkCkMV6wjDs",
+        "thumbnail": "https://i.ytimg.com/vi/FkCkMV6wjDs/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 56 - Struct",
+        "url": "https://www.youtube.com/watch?v=ELCI_U4OF5w",
+        "thumbnail": "https://i.ytimg.com/vi/ELCI_U4OF5w/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 57 - Nesting Struct",
+        "url": "https://www.youtube.com/watch?v=b2N3_dA8VBU",
+        "thumbnail": "https://i.ytimg.com/vi/b2N3_dA8VBU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 58 - Unions",
+        "url": "https://www.youtube.com/watch?v=CymbNTkakQg",
+        "thumbnail": "https://i.ytimg.com/vi/CymbNTkakQg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 59 - Enum",
+        "url": "https://www.youtube.com/watch?v=jMau81Jh8JU",
+        "thumbnail": "https://i.ytimg.com/vi/jMau81Jh8JU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 60 - Ternary Operator",
+        "url": "https://www.youtube.com/watch?v=SZb0mbAWkFg",
+        "thumbnail": "https://i.ytimg.com/vi/SZb0mbAWkFg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 61 - Comma operator",
+        "url": "https://www.youtube.com/watch?v=ADtDGuNFzl8",
+        "thumbnail": "https://i.ytimg.com/vi/ADtDGuNFzl8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 62 - Bitwise operator",
+        "url": "https://www.youtube.com/watch?v=_yjPqk3uFng",
+        "thumbnail": "https://i.ytimg.com/vi/_yjPqk3uFng/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 63 - Casting operator",
+        "url": "https://www.youtube.com/watch?v=tKIUzW0d4gA",
+        "thumbnail": "https://i.ytimg.com/vi/tKIUzW0d4gA/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 64 - Menulis File Eksternal | ofstream",
+        "url": "https://www.youtube.com/watch?v=rS-mnrY4Djw",
+        "thumbnail": "https://i.ytimg.com/vi/rS-mnrY4Djw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 65 - Membaca File Ekstrenal | ifstream",
+        "url": "https://www.youtube.com/watch?v=E8L-RjMB8Kk",
+        "thumbnail": "https://i.ytimg.com/vi/E8L-RjMB8Kk/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 66 - Menulis Binary File | ios::binary",
+        "url": "https://www.youtube.com/watch?v=yzDGvaFUsgg",
+        "thumbnail": "https://i.ytimg.com/vi/yzDGvaFUsgg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 67 - Membaca Binary File | ios::binary",
+        "url": "https://www.youtube.com/watch?v=u3h22jZPUhI",
+        "thumbnail": "https://i.ytimg.com/vi/u3h22jZPUhI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 68 - Latihan I/O External File Binary",
+        "url": "https://www.youtube.com/watch?v=4hjsFsVmAA8",
+        "thumbnail": "https://i.ytimg.com/vi/4hjsFsVmAA8/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 69 - Project CRUD part 1 | Membuat Menu",
+        "url": "https://www.youtube.com/watch?v=8El0_qrEfgc",
+        "thumbnail": "https://i.ytimg.com/vi/8El0_qrEfgc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 70 - Project CRUD Part 2 | Create and Read",
+        "url": "https://www.youtube.com/watch?v=dth70PlVFvQ",
+        "thumbnail": "https://i.ytimg.com/vi/dth70PlVFvQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 71 - Project CRUD Part 3 | Update and Delete",
+        "url": "https://www.youtube.com/watch?v=BUPXfxSNXpQ",
+        "thumbnail": "https://i.ytimg.com/vi/BUPXfxSNXpQ/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 72 - Preprocessing Directive ( pendahuluan )",
+        "url": "https://www.youtube.com/watch?v=H2sAAx3asZE",
+        "thumbnail": "https://i.ytimg.com/vi/H2sAAx3asZE/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 73 - Preprocessing Directive Macro, define, undef",
+        "url": "https://www.youtube.com/watch?v=Fkg8VaiYgjU",
+        "thumbnail": "https://i.ytimg.com/vi/Fkg8VaiYgjU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 74 - Preprocessing Directive if else",
+        "url": "https://www.youtube.com/watch?v=PutBYIbed1k",
+        "thumbnail": "https://i.ytimg.com/vi/PutBYIbed1k/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 75 - Preprocessing Directive include",
+        "url": "https://www.youtube.com/watch?v=TMH0QYWvgkI",
+        "thumbnail": "https://i.ytimg.com/vi/TMH0QYWvgkI/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 76 - Preprocessing Directive ifdef, ifndef, pragma",
+        "url": "https://www.youtube.com/watch?v=qgGrNIEAIdw",
+        "thumbnail": "https://i.ytimg.com/vi/qgGrNIEAIdw/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 77 - namespace",
+        "url": "https://www.youtube.com/watch?v=ODv5oleRpEg",
+        "thumbnail": "https://i.ytimg.com/vi/ODv5oleRpEg/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 78 - Latihan MultiFile | Project CRUD",
+        "url": "https://www.youtube.com/watch?v=QsRxAZOgBD4",
+        "thumbnail": "https://i.ytimg.com/vi/QsRxAZOgBD4/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 79 - typedef",
+        "url": "https://www.youtube.com/watch?v=kEVIZGsIA4I",
+        "thumbnail": "https://i.ytimg.com/vi/kEVIZGsIA4I/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 80 - Template Fungsi",
+        "url": "https://www.youtube.com/watch?v=GfTmkJs9MsU",
+        "thumbnail": "https://i.ytimg.com/vi/GfTmkJs9MsU/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 81 - Auto",
+        "url": "https://www.youtube.com/watch?v=6Bykw0BqK4Q",
+        "thumbnail": "https://i.ytimg.com/vi/6Bykw0BqK4Q/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ [Dasar] - 82 - Error Handling (exception)",
+        "url": "https://www.youtube.com/watch?v=QoYVkhqyvtc",
+        "thumbnail": "https://i.ytimg.com/vi/QoYVkhqyvtc/maxresdefault.jpg"
+    },
+    {
+        "title": "Belajar C++ - Final",
+        "url": "https://www.youtube.com/watch?v=NYtN2ImqBVw",
+        "thumbnail": "https://i.ytimg.com/vi/NYtN2ImqBVw/maxresdefault.jpg"
+    }
+]
