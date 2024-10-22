@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={`antialiased dark:bg-[#092534]`}
       >
          <ThemeProvider
             attribute="class"
