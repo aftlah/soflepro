@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 
 import {
   DropdownMenu,
@@ -14,9 +14,10 @@ import { useTheme } from "next-themes";
 
 export default function Navbar() {
   const { setTheme } = useTheme();
+  const [onNavbarClick, setOnNavbarClick] = useState(false);
 
-  const klik = () => {
-    alert("klik");
+  const handleNavbarClick = () => {
+    setOnNavbarClick(true);
   };
 
   return (
@@ -24,7 +25,11 @@ export default function Navbar() {
       <div className=" flex  justify-between container mx-auto items-center px-4 py-1">
         <div className="text-dark dark:text-[#4EEEBB">SOFLEPROG</div>
         <div>
-          <button onClick={klik} className="bg-transparent" title="Menu">
+          <button
+            onClick={handleNavbarClick}
+            className="bg-transparent"
+            title="Menu"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -63,7 +68,15 @@ export default function Navbar() {
           </DropdownMenu> */}
         </div>
       </div>
-      <div className="bg-red-50 container mx-auto">ISI NAVBAR</div>
+      <div className="bg-red-50 container mx-auto px-4 py-1">
+        <ul>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+        </ul>
+      </div>
     </>
   );
 }
