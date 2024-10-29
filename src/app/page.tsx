@@ -5,6 +5,61 @@ import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
 
+const dataGame = [
+    {
+        language: "CPP",
+        apps: [
+            {
+                title: "FORTNITE",
+                image: "/images/Fortnite.svg",
+            },
+            {
+                title: "PUBG",
+                image: "/images/PUBG.svg",
+            },
+        ],
+    },
+    {
+        language: "PYTHON",
+        apps: [
+            {
+                title: "INSTAGRAM",
+                image: "/images/Instagram.svg",
+            },
+            {
+                title: "SPOTIFY",
+                image: "/images/spotify.svg",
+            },
+        ],
+    },
+    {
+        language: "JAVASCRIPT",
+        apps: [
+            {
+                title: "NETFLIX",
+                image: "/images/Netflix.svg",
+            },
+            {
+                title: "PAYPAL",
+                image: "/images/Paypal.svg",
+            },
+        ],
+    },
+    {
+        language: "PHP",
+        apps: [
+            {
+                title: "GOOGLE",
+                image: "/images/google.svg",
+            },
+            {
+                title: "WORDPRESS",
+                image: "/images/WordPress.svg",
+            },
+        ],
+    },
+];
+
 export default function Home() {
     return (
         <div className="container md:mx-auto  px-[25px] py-1 mt-6 max-w-[450px]">
@@ -128,6 +183,45 @@ export default function Home() {
                         kalian akan melihat apa saja sih website dan game yang basis
                         pemrogramannya adalah cpp, python, javascript dan php.
                     </p>
+                </div>
+            </section>
+
+            {/* Section 4 */}
+            <section className="mt-10">
+                <div className="flex flex-col ">
+                    {dataGame.map((languageData, index) => (
+                        <div key={index} className="mt-11 container">
+                            <div>
+                                <h1 className="text-lg font-extrabold">
+                                    {languageData.language}
+                                </h1>
+                            </div>
+                            <div className="flex justify-center items-center gap-x-10 mt-[8px]">
+                                {languageData.apps.map((app, appIndex) => (
+                                    <div
+                                        key={appIndex}
+                                        className="flex justify-center items-center flex-col gap-y-2"
+                                    >
+                                        <Image
+                                            src={app.image}
+                                            width={180}
+                                            height={100}
+                                            alt={`${app.title} Logo`}
+                                        />
+                                        <div className="font-extrabold">{app.title}</div>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className="flex justify-center mt-[14px]">
+                                <Link
+                                    href="#more-cpp-apps"
+                                    className="dark:text-primary hover:underline"
+                                >
+                                    Lihat lebih banyak &gt;
+                                </Link>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </section>
         </div>
