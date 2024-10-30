@@ -4,61 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
-
-const dataGame = [
-    {
-        language: "CPP",
-        apps: [
-            {
-                title: "FORTNITE",
-                image: "/images/Fortnite.svg",
-            },
-            {
-                title: "PUBG",
-                image: "/images/PUBG.svg",
-            },
-        ],
-    },
-    {
-        language: "PYTHON",
-        apps: [
-            {
-                title: "INSTAGRAM",
-                image: "/images/Instagram.svg",
-            },
-            {
-                title: "SPOTIFY",
-                image: "/images/spotify.svg",
-            },
-        ],
-    },
-    {
-        language: "JAVASCRIPT",
-        apps: [
-            {
-                title: "NETFLIX",
-                image: "/images/Netflix.svg",
-            },
-            {
-                title: "PAYPAL",
-                image: "/images/Paypal.svg",
-            },
-        ],
-    },
-    {
-        language: "PHP",
-        apps: [
-            {
-                title: "GOOGLE",
-                image: "/images/google.svg",
-            },
-            {
-                title: "WORDPRESS",
-                image: "/images/WordPress.svg",
-            },
-        ],
-    },
-];
+import dataGame from "@/utils/datas";
 
 export default function Home() {
     return (
@@ -200,13 +146,14 @@ export default function Home() {
                                 {languageData.apps.map((app, appIndex) => (
                                     <div
                                         key={appIndex}
-                                        className="flex justify-center items-center flex-col gap-y-2"
+                                        className="flex justify-center items-center flex-col gap-y-2 "
                                     >
                                         <Image
                                             src={app.image}
                                             width={180}
                                             height={100}
                                             alt={`${app.title} Logo`}
+                                            className="dark:border-2 dark:border-[#092534] rounded-xl "
                                         />
                                         <div className="font-extrabold">{app.title}</div>
                                     </div>
