@@ -56,3 +56,6 @@ folder structure
 ├── next.config.js            # Konfigurasi Next.js
 ├── package.json              # Dependencies dan scripts project
 └── README.md                 # Dokumentasi project
+
+
+testing
