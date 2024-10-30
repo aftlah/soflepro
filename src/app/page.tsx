@@ -171,6 +171,15 @@ export default function Home() {
                     ))}
                 </div>
             </section>
+
+            {/* Section 5 */}
+            <section>
+                <div className="w-full flex justify-center items-center mx-auto">
+                    <h1 className="text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px]">
+                        Kenapa sih kita harus belajar dasar bahasa pemrograman?
+                    </h1>
+                </div>
+            </section>
         </div>
     );
 }
