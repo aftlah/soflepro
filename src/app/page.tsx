@@ -8,7 +8,7 @@ import dataGame from "@/utils/datas";
 
 export default function Home() {
     return (
-        <div className="container md:mx-auto  px-[25px] py-1 mt-6 max-w-[450px]">
+        <div className="container mx-auto  px-[25px] pb-10  max-w-[450px] pt-20">
             {/* Section 1 */}
             <section>
                 <div className="text-[36px] font-extrabold text-white leading-tight">
@@ -153,7 +153,7 @@ export default function Home() {
                                             width={180}
                                             height={100}
                                             alt={`${app.title} Logo`}
-                                            className="dark:border-2 dark:border-[#092534] rounded-xl "
+                                            className="border-2 border-[#092534] dark:border-none rounded-xl "
                                         />
                                         <div className="font-extrabold">{app.title}</div>
                                     </div>
@@ -173,11 +173,66 @@ export default function Home() {
             </section>
 
             {/* Section 5 */}
-            <section>
+            <section className="">
                 <div className="w-full flex justify-center items-center mx-auto">
                     <h1 className="text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px]">
                         Kenapa sih kita harus belajar dasar bahasa pemrograman?
                     </h1>
+                </div>
+
+                <div className=" flex flex-col justify-center items-center ">
+                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[50px]">
+                        <Image
+                            src={"/images/image-footer1.svg"}
+                            width={148}
+                            height={148}
+                            alt="img-footer1"
+                        />
+                        <h1 className="text-center text-[20px] font-bold mt-4">
+                            Membangun Logika dan Problem Solving
+                        </h1>
+                    </div>
+                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[49px]">
+                        <Image
+                            src={"/images/image-footer3.svg"}
+                            width={148}
+                            height={148}
+                            alt="img-footer1"
+                        />
+                        <h1 className="text-center text-[20px] font-bold mt-4">
+                            Pondasi untuk Belajar tekonologi yang Lebih Kompleks seperti
+                            framework
+                        </h1>
+                    </div>
+                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[49px]">
+                        <Image
+                            src={"/images/image-footer2.svg"}
+                            width={148}
+                            height={148}
+                            alt="img-footer1"
+                        />
+                        <h1 className="text-center text-[20px] font-bold mt-4">
+                            Peluang Karir yang Luas
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            {/* Section 6 */}
+
+            <section className="mt-[65px]">
+                <div className="flex flex-col justify-center items-center gap-y-[23px]">
+                    <h1 className="font-extrabold text-[24px] dark:text-primary">
+                        Gabung Komunitas
+                    </h1>
+                    <Link href={""}>
+                        <Image
+                            src={"/images/whatsapp.svg"}
+                            width={58}
+                            height={58}
+                            alt="img-footer1"
+                        />
+                    </Link>
                 </div>
             </section>
         </div>
