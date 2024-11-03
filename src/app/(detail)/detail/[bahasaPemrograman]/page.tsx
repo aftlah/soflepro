@@ -1,5 +1,6 @@
 "use client";
 
+import SpinnerLoadingEffect from "@/components/ui/spinner-loading";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
@@ -18,7 +19,7 @@ type ContentData = {
   header: string;
 };
 
-function DetailPembelajaranPage() {
+export default function DetailPembelajaranPage() {
   const params = useParams();
   const { bahasaPemrograman } = params;
 
@@ -87,86 +88,70 @@ function DetailPembelajaranPage() {
 
   return (
     <div>
-      <h1 className="text-2xl font-extrabold dark:text-primary">
-        Bahasa{" "}
-        {typeof bahasaPemrograman === "string"
-          ? bahasaPemrograman.toUpperCase()
-          : ""}
-      </h1>
-      <div className="mt-4">
-        {contentData && (
-          <>
-            <Image
-              src={contentData.logo}
-              alt=""
-              width={65}
-              height={65}
-              // style={{ width: "auto", height: "auto" }}
-            />
-            <div className="mt-5 flex flex-col gap-y-3 mb-12">
-              <div>
-                <p className="font-medium text-[16px]">{contentData.desc1}</p>
+      {contentData ? (
+        <>
+          <h1 className="text-2xl font-extrabold dark:text-primary mb-4">
+            Bahasa{" "}
+            {typeof bahasaPemrograman === "string"
+              ? bahasaPemrograman.toUpperCase()
+              : ""}
+          </h1>
+          <Image
+            src={contentData.logo}
+            alt=""
+            width={65}
+            height={65}
+            // style={{ width: "auto", height: "auto" }}
+          />
+
+          <div className="mt-5 flex flex-col gap-y-3 mb-12">
+            <p className="font-medium text-[16px]">{contentData.desc1}</p>
+            <p className="font-medium text-[16px]">{contentData.desc2}</p>
+          </div>
+
+          <h2 className="text-2xl font-extrabold dark:text-primary">
+            Video Pembelajaran
+          </h2>
+
+          {playlistData ? (
+            <div className="mt-3">
+              <p className="font-medium text-[16px]">{contentData.header}</p>
+              <div className="mt-6">
+                {playlistData.slice(0, 5).map((item, index) => (
+                  <Link href={item.url} key={index} target="_blank">
+                    <div className="dark:bg-primary bg-[#092534] my-1 dark:text-[#092534] px-3 rounded-xl text-white flex items-center py-3 gap-x-2">
+                      <Image
+                        src={contentData.logo}
+                        alt={item.title}
+                        width={53}
+                        height={53}
+                      />
+                      <p className="text-[11px] font-extrabold">{item.title}</p>
+                    </div>
+                  </Link>
+                ))}
               </div>
-              <div>
-                <p className="font-medium text-[16px]">{contentData.desc2}</p>
+              <div
+                onClick={() => {
+                  const fullVideoUrl = `/detail/${bahasaPemrograman}/fullvideo`;
+                  window.location.href = fullVideoUrl;
+                }}
+                className="cursor-pointer dark:text-primary mx-auto mt-5 text-[14px] font-medium text-center"
+              >
+                Lihat Semua {">"}
               </div>
             </div>
-          </>
-        )}
-      </div>
-
-      <h2 className="text-2xl font-extrabold dark:text-primary">
-        Video Pembelajaran
-      </h2>
-      {playlistData ? (
-        <div className="mt-3">
-          <div>
-            <p className="font-medium text-[16px]">{contentData?.header}</p>
-          </div>
-          <div className="mt-6">
-            {playlistData.slice(0, 5).map(
-              (item, index) =>
-              contentData && (
-                <Link
-                href={item.url}
-                key={index}
-                target="_blank"
-                className=""
-                >
-                <div
-                  key={index}
-                  className="dark:bg-primary bg-[#092534] my-1 dark:text-[#092534] px-3 rounded-xl text-white flex items-center py-3 gap-x-2"
-                >
-                  <div>
-                  <Image
-                    src={contentData.logo}
-                    alt={item.title}
-                    width={53}
-                    height={53}
-                    style={{ width: "auto", height: "auto" }}
-                  />
-                  </div>
-                  <p className="text-[11px] font-extrabold">{item.title}</p>
-                </div>
-                </Link>
-              )
-            )}
-          </div>
-          <div
-            onClick={() => {
-              const fullVideoUrl = `/detail/${bahasaPemrograman}/fullvideo`;
-                window.location.href = fullVideoUrl;
-              }}
-              className="cursor-pointer dark:text-primary mx-auto mt-5 text-[14px] font-medium text-center"
-              >
-              Lihat Semua {">"}
-          </div>
-        </div>
+          ) : (
+            <div className="mt-10 flex justify-center items-center">
+              <SpinnerLoadingEffect />
+            </div>
+          )}
+        </>
       ) : (
-        <p>Loading playlist...</p>
+        <div className="mt-10 flex justify-center items-center">
+          <SpinnerLoadingEffect />
+        </div>
       )}
     </div>
   );
 }
-
-export default DetailPembelajaranPage;

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, } from "react";
+import React, { useEffect, useState, } from "react";
 
 import {
   DropdownMenu,
@@ -22,9 +22,9 @@ export default function Navbar() {
     setOnNavbarClick(!onNavbarClick);
   };
 
-  if (typeof window !== "undefined") {
+  useEffect(() => {
     const handleScroll = () => {
-      const navbar = document.querySelector(".fixed");
+      const navbar = document.querySelector(".navbar");
       if (window.scrollY > 0) {
         navbar?.classList.add("backdrop-blur-md", "bg-[#092534]", "opacity-95");
       } else {
@@ -33,11 +33,14 @@ export default function Navbar() {
     };
 
     window.addEventListener("scroll", handleScroll);
-  }
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <div className=" fixed w-full ">
+      <div className="navbar fixed w-full ">
         <div className=" flex  justify-between container mx-auto items-center px-8 py-2 ">
           <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO

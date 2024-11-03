@@ -140,7 +140,7 @@ export default function Home() {
             </section>
 
             {/* Section 4 */}
-            <section className="mt-10">
+            <section className="mt-8">
                 <div className="flex flex-col ">
                     {dataGame.map((languageData, index) => (
                         <div key={index} className="mt-11 container">
