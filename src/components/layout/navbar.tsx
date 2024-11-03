@@ -24,9 +24,9 @@ export default function Navbar() {
     const handleScroll = () => {
       const navbar = document.querySelector(".fixed");
       if (window.scrollY > 0) {
-        navbar?.classList.add("backdrop-blur-md");
+        navbar?.classList.add("backdrop-blur-md", "bg-[#092534]", "opacity-95");
       } else {
-        navbar?.classList.remove("backdrop-blur-md");
+        navbar?.classList.remove("backdrop-blur-md", "bg-[#092534]", "opacity-95");
       }
     };
 
