@@ -8,11 +8,13 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 
 export default function Navbar() {
+  const router = useRouter();
   const { setTheme } = useTheme();
   const [onNavbarClick, setOnNavbarClick] = useState(false);
 
@@ -37,7 +39,7 @@ export default function Navbar() {
     <>
       <div className=" fixed w-full ">
         <div className=" flex  justify-between container mx-auto items-center px-8 py-2 ">
-          <div className="text-dark dark:text-[#4EEEBB] font-bold">
+          <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO
           </div>
 
