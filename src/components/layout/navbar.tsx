@@ -40,10 +40,38 @@ export default function Navbar() {
 
   return (
     <>
+<<<<<<< HEAD
+      <div className=" flex justify-between container mx-auto items-center px-[25px] py-2">
+        <div className="text-dark dark:text-[#4EEEBB font-bold">SOFLEPRO</div>
+
+        <div className="md:hidden">
+          <div>
+            <button
+              onClick={handleNavbarClick}
+              className="bg-transparent"
+              title="Menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-7"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+                />
+              </svg>
+            </button>
+=======
       <div className="navbar fixed w-full ">
         <div className=" flex  justify-between container mx-auto items-center px-8 py-2 ">
           <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO
+>>>>>>> 8523a61fa93b94fda205c1f27ae28d45a8169a07
           </div>
 
           <div className="md:hidden">
