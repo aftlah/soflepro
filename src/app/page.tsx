@@ -77,7 +77,7 @@ export default function Home() {
                     </div>
                     <div
                         onClick={() =>
-                            router.push(`/detail/${encodeURIComponent("java")}`)
+                            router.push(`/detail/${encodeURIComponent("javascript")}`)
                         }
                         className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
                     >
