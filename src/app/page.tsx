@@ -5,16 +5,70 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import * as React from "react";
-import dataGame from "@/utils/datas";
+
+const dataGame = [
+    {
+        language: "CPP",
+        apps: [
+            {
+                title: "FORTNITE",
+                image: "/images/Fortnite.svg",
+            },
+            {
+                title: "PUBG",
+                image: "/images/PUBG.svg",
+            },
+        ],
+    },
+    {
+        language: "PYTHON",
+        apps: [
+            {
+                title: "INSTAGRAM",
+                image: "/images/Instagram.svg",
+            },
+            {
+                title: "SPOTIFY",
+                image: "/images/spotify.svg",
+            },
+        ],
+    },
+    {
+        language: "JAVASCRIPT",
+        apps: [
+            {
+                title: "NETFLIX",
+                image: "/images/Netflix.svg",
+            },
+            {
+                title: "PAYPAL",
+                image: "/images/Paypal.svg",
+            },
+        ],
+    },
+    {
+        language: "PHP",
+        apps: [
+            {
+                title: "GOOGLE",
+                image: "/images/google.svg",
+            },
+            {
+                title: "WORDPRESS",
+                image: "/images/WordPress.svg",
+            },
+        ],
+    },
+];
 
 export default function Home() {
     const router = useRouter();
 
     return (
-        <div className="">
+        <div className="container md:mx-auto  px-[25px] py-1 mt-6 max-w-[450px]">
             {/* Section 1 */}
-            <section>
-                <div className="text-[36px] font-extrabold text-white leading-tight">
+            <section className="md:text-center">
+                <div className="text-[36px] font-extrabold text-white leading-tight ">
                     <h1 className="dark:text-white text-[#4EEEBB]">
                         <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
                     </h1>
@@ -140,16 +194,16 @@ export default function Home() {
             </section>
 
             {/* Section 4 */}
-            <section className="mt-8">
+            <section className="mt-10">
                 <div className="flex flex-col ">
                     {dataGame.map((languageData, index) => (
-                        <div key={index} className="mt-11 container">
+                        <div key={index} className="mt-11 md:mt-5 md:mb-5 container">
                             <div>
-                                <h1 className="text-lg font-extrabold px-5">
+                                <h1 className="text-lg font-extrabold">
                                     {languageData.language}
                                 </h1>
                             </div>
-                            <div className="flex justify-center items-center gap-x-10 mt-[8px]">
+                            <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-x-10 mt-[8px] md:justify-start">
                                 {languageData.apps.map((app, appIndex) => (
                                     <div
                                         key={appIndex}
@@ -167,14 +221,7 @@ export default function Home() {
                                     </div>
                                 ))}
                             </div>
-                            <div className="flex justify-center mt-[14px]">
-                                <Link
-                                    href="#more-cpp-apps"
-                                    className="dark:text-primary hover:underline"
-                                >
-                                    Lihat lebih banyak &gt;
-                                </Link>
-                            </div>
+                            
                         </div>
                     ))}
                 </div>
