@@ -39,7 +39,9 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navbar />
+            <div className="pt-20 container mx-auto  px-[25px] pb-10  max-w-[450px] ">
             {children}
+            </div>
           </ThemeProvider>
       </body>
     </html>
