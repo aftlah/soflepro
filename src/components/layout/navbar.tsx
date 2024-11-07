@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className=" flex  justify-between container mx-auto items-center px-[25px] py-2">
+      <div className=" flex justify-between container mx-auto items-center px-[25px] py-2">
         <div className="text-dark dark:text-[#4EEEBB font-bold">SOFLEPRO</div>
 
         <div className="md:hidden">
