@@ -26,9 +26,9 @@ export default function Navbar() {
     const handleScroll = () => {
       const navbar = document.querySelector(".navbar");
       if (window.scrollY > 0) {
-        navbar?.classList.add("backdrop-blur-md", "bg-[#092534]", "opacity-95");
+        navbar?.classList.add("backdrop-blur-md", "dark:bg-[#092534]", "opacity-95");
       } else {
-        navbar?.classList.remove("backdrop-blur-md", "bg-[#092534]", "opacity-95");
+        navbar?.classList.remove("backdrop-blur-md", "dark:bg-[#092534]", "opacity-95");
       }
     };
 
@@ -41,12 +41,12 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar fixed w-full ">
-        <div className=" flex  justify-between container mx-auto items-center px-8 py-2 ">
+        <div className=" flex  justify-between container mx-auto items-center px-8 py-3 ">
           <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO
           </div>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <div>
               <button
                 onClick={handleNavbarClick}

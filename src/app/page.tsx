@@ -5,101 +5,144 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import * as React from "react";
+import dataGame from "@/utils/datas";
 
-const dataGame = [
-    {
-        language: "CPP",
-        apps: [
-            {
-                title: "FORTNITE",
-                image: "/images/Fortnite.svg",
-            },
-            {
-                title: "PUBG",
-                image: "/images/PUBG.svg",
-            },
-        ],
-    },
-    {
-        language: "PYTHON",
-        apps: [
-            {
-                title: "INSTAGRAM",
-                image: "/images/Instagram.svg",
-            },
-            {
-                title: "SPOTIFY",
-                image: "/images/spotify.svg",
-            },
-        ],
-    },
-    {
-        language: "JAVASCRIPT",
-        apps: [
-            {
-                title: "NETFLIX",
-                image: "/images/Netflix.svg",
-            },
-            {
-                title: "PAYPAL",
-                image: "/images/Paypal.svg",
-            },
-        ],
-    },
-    {
-        language: "PHP",
-        apps: [
-            {
-                title: "GOOGLE",
-                image: "/images/google.svg",
-            },
-            {
-                title: "WORDPRESS",
-                image: "/images/WordPress.svg",
-            },
-        ],
-    },
-];
+// const dataGame = [
+//     {
+//         language: "CPP",
+//         apps: [
+//             {
+//                 title: "FORTNITE",
+//                 image: "/images/Fortnite.svg",
+//             },
+//             {
+//                 title: "PUBG",
+//                 image: "/images/PUBG.svg",
+//             },
+//             {
+//                 title: "FORTNITE",
+//                 image: "/images/Fortnite.svg",
+//             },
+//             {
+//                 title: "PUBG",
+//                 image: "/images/PUBG.svg",
+//             },
+//         ],
+//     },
+//     {
+//         language: "PYTHON",
+//         apps: [
+//             {
+//                 title: "INSTAGRAM",
+//                 image: "/images/Instagram.svg",
+//             },
+//             {
+//                 title: "SPOTIFY",
+//                 image: "/images/spotify.svg",
+//             },
+//             {
+//                 title: "INSTAGRAM",
+//                 image: "/images/Instagram.svg",
+//             },
+//             {
+//                 title: "SPOTIFY",
+//                 image: "/images/spotify.svg",
+//             },
+//         ],
+//     },
+//     {
+//         language: "JAVASCRIPT",
+//         apps: [
+//             {
+//                 title: "NETFLIX",
+//                 image: "/images/Netflix.svg",
+//             },
+//             {
+//                 title: "PAYPAL",
+//                 image: "/images/Paypal.svg",
+//             },
+//             {
+//                 title: "NETFLIX",
+//                 image: "/images/Netflix.svg",
+//             },
+//             {
+//                 title: "PAYPAL",
+//                 image: "/images/Paypal.svg",
+//             },
+//         ],
+//     },
+//     {
+//         language: "PHP",
+//         apps: [
+//             {
+//                 title: "GOOGLE",
+//                 image: "/images/google.svg",
+//             },
+//             {
+//                 title: "WORDPRESS",
+//                 image: "/images/WordPress.svg",
+//             },
+//             {
+//                 title: "GOOGLE",
+//                 image: "/images/google.svg",
+//             },
+//             {
+//                 title: "WORDPRESS",
+//                 image: "/images/WordPress.svg",
+//             },
+//         ],
+//     },
+// ];
 
 export default function Home() {
     const router = useRouter();
 
     return (
-        <div className="container md:mx-auto  px-[25px] py-1 mt-6 max-w-[450px]">
+        <div className="container md:mx-auto  px-[25px] py-1 mt-6  ">
             {/* Section 1 */}
-            <section className="md:text-center">
-                <div className="text-[36px] font-extrabold text-white leading-tight ">
-                    <h1 className="dark:text-white text-[#4EEEBB]">
-                        <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
-                    </h1>
-                    <h1 className="dark:text-white text-[#4EEEBB]">
-                        <span className="text-[#092534] dark:text-[#4EEEBB]">F</span>or{" "}
-                        <span className="text-[#092534] dark:text-[#4EEEBB]">LE</span>arn
-                    </h1>
-                    <h1 className="dark:text-white text-[#4EEEBB]">
-                        <span className="text-[#092534] dark:text-[#4EEEBB]">PRO</span>
-                        gramming
-                    </h1>
+            <section className="md:flex md:flex-row">
+                <div className="md:max-w-[60%] ">
+                    <div className="text-[36px] font-extrabold text-white leading-tight ">
+                        <h1 className="dark:text-white text-[#4EEEBB]">
+                            <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
+                        </h1>
+                        <h1 className="dark:text-white text-[#4EEEBB]">
+                            <span className="text-[#092534] dark:text-[#4EEEBB]">F</span>or{" "}
+                            <span className="text-[#092534] dark:text-[#4EEEBB]">LE</span>arn
+                        </h1>
+                        <h1 className="dark:text-white text-[#4EEEBB]">
+                            <span className="text-[#092534] dark:text-[#4EEEBB]">PRO</span>
+                            gramming
+                        </h1>
+                    </div>
+                    <div className="mt-3">
+                        <p className="text-[16px]  md:pr-10">
+                            Menyediakan sumber belajar untuk kamu yang ingin mempelajari
+                            dasar-dasar bahasa pemrograman C++, Python, Javascript dan PHP
+                            secara GRATIS lhoo
+                        </p>
+                    </div>
+                    <div className="mt-3 ">
+                        <Button
+                            className="font-medium px-5 dark:bg-primary dark:text-[#092534] dark:hover:bg-primary/90"
+                            onClick={() => {
+                                const section = document.getElementById("target-section");
+                                if (section) {
+                                    section.scrollIntoView({ behavior: "smooth" });
+                                }
+                            }}
+                        >
+                            Belajar Sekarang {">"}
+                        </Button>
+                    </div>
                 </div>
-                <div className="mt-3">
-                    <p className="text-[16px]">
-                        Menyediakan sumber belajar untuk kamu yang ingin mempelajari
-                        dasar-dasar bahasa pemrograman C++, Python, Javascript dan PHP
-                        secara GRATIS lhoo
-                    </p>
-                </div>
-                <div className="mt-3 ">
-                    <Button
-                        className="font-medium px-5 dark:bg-primary dark:text-[#092534] dark:hover:bg-primary/90"
-                        onClick={() => {
-                            const section = document.getElementById("target-section");
-                            if (section) {
-                                section.scrollIntoView({ behavior: "smooth" });
-                            }
-                        }}
-                    >
-                        Belajar Sekarang {">"}
-                    </Button>
+                <div className="md:w-[40%] flex items-center justify-center">
+                    <Image
+                        src={"/images/head-banner.svg"}
+                        width={300}
+                        height={300}
+                        alt="hero"
+                    />
                 </div>
             </section>
 
@@ -109,12 +152,12 @@ export default function Home() {
                     <h1 className="text-[24px] dark:text-[#4EEEBB] font-extrabold">
                         Kenalan dulu yuk
                     </h1>
-                    <p className="text-[16px] ">
+                    <p className="text-[16px] md:max-w-80">
                         Sebelum kamu belajar secara dalam. Yuk kenalan dulu dengan
                         bahasa-bahasa tersebut
                     </p>
                 </div>
-                <div className="grid grid-cols-2 gap-4 mt-3">
+                <div className="grid grid-cols-2 gap-4 mt-3 md:grid-cols-4">
                     <div
                         onClick={() => router.push(`/detail/${encodeURIComponent("cpp")}`)}
                         className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
@@ -185,7 +228,7 @@ export default function Home() {
                     <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold">
                         Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
                     </h1>
-                    <p className="text-[16px]">
+                    <p className="text-[16px] md:max-w-[40rem]">
                         Kalian sudah mengetahui bahasa pemrograman diatas, dibagian ini
                         kalian akan melihat apa saja sih website dan game yang basis
                         pemrogramannya adalah cpp, python, javascript dan php.
@@ -194,12 +237,12 @@ export default function Home() {
             </section>
 
             {/* Section 4 */}
-            <section className="mt-10">
+            <section className="mt-10 md:mt-5">
                 <div className="flex flex-col ">
                     {dataGame.map((languageData, index) => (
                         <div key={index} className="mt-11 md:mt-5 md:mb-5 container">
                             <div>
-                                <h1 className="text-lg font-extrabold">
+                                <h1 className="text-lg font-extrabold underline">
                                     {languageData.language}
                                 </h1>
                             </div>
@@ -213,7 +256,7 @@ export default function Home() {
                                             src={app.image}
                                             width={180}
                                             height={100}
-                                            alt={`${app.title} Logo`}   
+                                            alt={`${app.title} Logo`}
                                             className="border-2 border-[#092534] dark:border-none rounded-xl "
                                             style={{ width: "auto", height: "auto" }}
                                         />
@@ -221,7 +264,6 @@ export default function Home() {
                                     </div>
                                 ))}
                             </div>
-                            
                         </div>
                     ))}
                 </div>
@@ -230,13 +272,13 @@ export default function Home() {
             {/* Section 5 */}
             <section className="">
                 <div className="w-full flex justify-center items-center mx-auto">
-                    <h1 className="text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px]">
+                    <h1 className="text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px] md:w-[400px]">
                         Kenapa sih kita harus belajar dasar bahasa pemrograman?
                     </h1>
                 </div>
 
-                <div className=" flex flex-col justify-center items-center ">
-                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[50px]">
+                <div className="flex flex-col justify-center items-center md:flex-row md:gap-x-3  md:mt-8">
+                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[50px] md:mt-0 min-h-[250px]">
                         <Image
                             src={"/images/image-footer1.svg"}
                             width={148}
@@ -244,32 +286,32 @@ export default function Home() {
                             alt="img-footer1"
                             style={{ width: "auto", height: "auto" }}
                         />
-                        <h1 className="text-center text-[20px] font-bold mt-4">
+                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
                             Membangun Logika dan Problem Solving
                         </h1>
                     </div>
-                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[49px]">
+                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-9 min-h-[250px]">
                         <Image
                             src={"/images/image-footer3.svg"}
                             width={148}
                             height={148}
-                            alt="img-footer1"
+                            alt="img-footer2"
                             style={{ width: "auto", height: "auto" }}
                         />
-                        <h1 className="text-center text-[20px] font-bold mt-4">
-                            Pondasi untuk Belajar tekonologi yang Lebih Kompleks seperti
+                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
+                            Pondasi untuk Belajar teknologi yang Lebih Kompleks seperti
                             framework
                         </h1>
                     </div>
-                    <div className="flex flex-col justify-center items-center max-w-[235px] mt-[49px]">
+                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-0 min-h-[250px]">
                         <Image
                             src={"/images/image-footer2.svg"}
                             width={148}
                             height={148}
-                            alt="img-footer1"
+                            alt="img-footer3"
                             style={{ width: "auto", height: "auto" }}
                         />
-                        <h1 className="text-center text-[20px] font-bold mt-4">
+                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
                             Peluang Karir yang Luas
                         </h1>
                     </div>
