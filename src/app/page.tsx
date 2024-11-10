@@ -125,18 +125,20 @@ export default function Home() {
                     <div className="mt-3 ">
                         <Button
                             className="font-medium px-5 dark:bg-primary dark:text-[#092534] dark:hover:bg-primary/90"
-                            onClick={() => {
-                                const section = document.getElementById("target-section");
-                                if (section) {
-                                    section.scrollIntoView({ behavior: "smooth" });
-                                }
-                            }}
+                            // onClick={() => {
+                            //     const section = document.getElementById("target-section");
+                            //     if (section) {
+                            //         section.scrollIntoView({ behavior: "smooth" });
+                            //     }
+                            // }}
+
+                            onClick={() => router.push("/learn")}
                         >
                             Belajar Sekarang {">"}
                         </Button>
                     </div>
                 </div>
-                <div className="md:w-[40%] flex items-center justify-center">
+                <div className="md:w-[40%] md:flex items-center justify-center hidden">
                     <Image
                         src={"/images/head-banner.svg"}
                         width={300}
@@ -246,11 +248,11 @@ export default function Home() {
                                     {languageData.language}
                                 </h1>
                             </div>
-                            <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-x-10 mt-[8px] md:justify-start">
+                            <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-x-10 mt-[8px] md:justify-start ">
                                 {languageData.apps.map((app, appIndex) => (
                                     <div
                                         key={appIndex}
-                                        className="flex justify-center items-center flex-col gap-y-2 "
+                                        className="flex justify-center items-center flex-col gap-y-2 mb-5"
                                     >
                                         <Image
                                             src={app.image}
@@ -260,7 +262,7 @@ export default function Home() {
                                             className="border-2 border-[#092534] dark:border-none rounded-xl "
                                             style={{ width: "auto", height: "auto" }}
                                         />
-                                        <div className="font-extrabold">{app.title}</div>
+                                        <div className="font-extrabold text-center">{app.title}</div>
                                     </div>
                                 ))}
                             </div>
