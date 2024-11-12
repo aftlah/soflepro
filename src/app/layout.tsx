@@ -29,6 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>SOFLEPRO</title>
       <body className={`antialiased dark:bg-[#092534]`}>
         <ThemeProvider
           attribute="class"
