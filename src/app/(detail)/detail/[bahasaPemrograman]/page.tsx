@@ -87,7 +87,7 @@ export default function DetailPembelajaranPage() {
   }, [bahasaPemrograman]);
 
   return (
-    <div className="">
+    <div className="px-[25px]">
       {contentData ? (
         <>
           <h1 className="text-2xl font-extrabold dark:text-primary mb-4">

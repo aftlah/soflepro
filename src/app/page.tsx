@@ -102,7 +102,7 @@ export default function Home() {
             {/* Section 1 */}
             <section className="md:flex md:flex-row">
                 <div className="md:max-w-[60%] ">
-                    <div className="text-[36px] font-extrabold text-white leading-tight ">
+                    <div className="text-[36px] font-extrabold text-white leading-tight uppercase">
                         <h1 className="dark:text-white text-[#4EEEBB]">
                             <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
                         </h1>
@@ -124,7 +124,7 @@ export default function Home() {
                     </div>
                     <div className="mt-3 ">
                         <Button
-                            className="font-medium px-5 dark:bg-primary dark:text-[#092534] dark:hover:bg-primary/90"
+                            className="font-medium px-5 border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
                             // onClick={() => {
                             //     const section = document.getElementById("target-section");
                             //     if (section) {
@@ -149,17 +149,17 @@ export default function Home() {
             </section>
 
             {/* Section 2 */}
-            <section className="mt-10">
+            <section className="mt-10 md:mt-20">
                 <div>
-                    <h1 className="text-[24px] dark:text-[#4EEEBB] font-extrabold">
-                        Kenalan dulu yuk
+                    <h1 className="text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:max-w-sm md:mx-auto">
+                        Kenalan dulu dengan bahasa pemrograman
                     </h1>
-                    <p className="text-[16px] md:max-w-80">
+                    <p className="text-[16px] md:max-w-80 md:text-center md:mx-auto md:mt-1 md:mb-5">
                         Sebelum kamu belajar secara dalam. Yuk kenalan dulu dengan
                         bahasa-bahasa tersebut
                     </p>
                 </div>
-                <div className="grid grid-cols-2 gap-4 mt-3 md:grid-cols-4">
+                <div className="grid grid-cols-2 gap-4 mt-3 lg:grid-cols-4 md:px-[100px]">
                     <div
                         onClick={() => router.push(`/detail/${encodeURIComponent("cpp")}`)}
                         className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
@@ -180,7 +180,7 @@ export default function Home() {
                         }
                         className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
                     >
-                        <div className="flex gap-x-2 items-center py-2 px-2 ">
+                        <div className="flex gap-x-2 items-center py-2 px-2">
                             <Image
                                 src="/images/js.svg"
                                 width={40}
@@ -227,10 +227,10 @@ export default function Home() {
             {/* Section 3 */}
             <section className="mt-10">
                 <div className="flex  flex-col gap-y-2">
-                    <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold">
+                    <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:min-w-sm md:mt-10">
                         Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
                     </h1>
-                    <p className="text-[16px] md:max-w-[40rem]">
+                    <p className="text-[16px] md:text-center md:mx-auto md:max-w-md">
                         Kalian sudah mengetahui bahasa pemrograman diatas, dibagian ini
                         kalian akan melihat apa saja sih website dan game yang basis
                         pemrogramannya adalah cpp, python, javascript dan php.
@@ -240,15 +240,15 @@ export default function Home() {
 
             {/* Section 4 */}
             <section className="md:mt-5">
-                <div className="flex flex-col ">
+                <div className="flex flex-col">
                     {dataGame.map((languageData, index) => (
-                        <div key={index} className="mt-11 md:mt-5 md:mb-5 container">
-                            <div>
-                                <h1 className="text-lg font-extrabold">
+                        <div key={index} className="mt-11 md:mt-5 md:mb-5 container md:text-center border-primary">
+                            <div className="md:mb-10">
+                                <h1 className="text-lg md:text-2xl font-extrabold text-primary">
                                     {languageData.language}
                                 </h1>
                             </div>
-                            <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-x-10 mt-[8px] md:justify-start ">
+                            <div className="grid grid-cols-2 lg:grid-cols-4  justify-center items-center gap-x-10 mt-[8px] md:justify-start md:px-[140px]">
                                 {languageData.apps.map((app, appIndex) => (
                                     <div
                                         key={appIndex}
@@ -274,8 +274,8 @@ export default function Home() {
             {/* Section 5 */}
             <section className="">
                 <div className="w-full flex justify-center items-center mx-auto">
-                    <h1 className="text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px] md:w-[400px]">
-                        Kenapa sih kita harus belajar dasar bahasa pemrograman?
+                    <h1 className="text-xl md:text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px] md:w-[400px] uppercase">
+                        Kenapa kita harus belajar dasar bahasa pemrograman?
                     </h1>
                 </div>
 
@@ -324,7 +324,7 @@ export default function Home() {
 
             <section className="mt-[65px]">
                 <div className="flex flex-col justify-center items-center gap-y-[23px]">
-                    <h1 className="font-extrabold text-[24px] dark:text-primary">
+                    <h1 className="font-extrabold text-[24px] dark:text-primary uppercase">
                         Gabung Komunitas
                     </h1>
                     <Link href={""}>
