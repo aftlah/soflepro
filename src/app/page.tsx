@@ -98,7 +98,7 @@ export default function Home() {
     const router = useRouter();
 
     return (
-        <div className="container md:mx-auto  px-[25px] py-1 mt-6  ">
+        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px]">
             {/* Section 1 */}
             <section className="md:flex md:flex-row">
                 <div className="md:max-w-[60%] ">
@@ -239,12 +239,12 @@ export default function Home() {
             </section>
 
             {/* Section 4 */}
-            <section className="mt-10 md:mt-5">
+            <section className="md:mt-5">
                 <div className="flex flex-col ">
                     {dataGame.map((languageData, index) => (
                         <div key={index} className="mt-11 md:mt-5 md:mb-5 container">
                             <div>
-                                <h1 className="text-lg font-extrabold underline">
+                                <h1 className="text-lg font-extrabold">
                                     {languageData.language}
                                 </h1>
                             </div>

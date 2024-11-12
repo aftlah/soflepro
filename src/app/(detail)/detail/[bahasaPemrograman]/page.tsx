@@ -87,7 +87,7 @@ export default function DetailPembelajaranPage() {
   }, [bahasaPemrograman]);
 
   return (
-    <div>
+    <div className="">
       {contentData ? (
         <>
           <h1 className="text-2xl font-extrabold dark:text-primary mb-4">
@@ -114,12 +114,12 @@ export default function DetailPembelajaranPage() {
           </h2>
 
           {playlistData ? (
-            <div className="mt-3">
+            <div className="mt-3 ">
               <p className="font-medium text-[16px]">{contentData.header}</p>
               <div className="mt-6">
                 {playlistData.slice(0, 5).map((item, index) => (
                   <Link href={item.url} key={index} target="_blank">
-                    <div className="dark:bg-primary bg-[#092534] my-2 dark:text-[#092534] px-3 rounded-xl text-white flex items-center py-1 gap-x-2">
+                    <div className="bg-none border-2 hover:bg-[#092534] hover:text-white border-[#092534] dark:border-primary dark:hover:bg-primary dark:hover:text-[#092534] transition-all ease-in duration-150 my-2 dark:text-[#fff] px-3 rounded-xl text-[#092534] flex items-center py-1 gap-x-2">
                       <Image
                         src={contentData.logo}
                         alt={item.title}
