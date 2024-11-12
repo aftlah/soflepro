@@ -227,7 +227,7 @@ export default function Home() {
             {/* Section 3 */}
             <section className="mt-10">
                 <div className="flex  flex-col gap-y-2">
-                    <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:min-w-sm md:mt-10">
+                    <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:max-w-lg lg:max-w-lg md:mt-10">
                         Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
                     </h1>
                     <p className="text-[16px] md:text-center md:mx-auto md:max-w-md">
@@ -338,6 +338,9 @@ export default function Home() {
                     </Link>
                 </div>
             </section>
+
+
+            
         </div>
     );
 }
