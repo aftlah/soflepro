@@ -41,7 +41,7 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar fixed w-full">
-        <div className=" flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px]">
+        <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
           <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO
           </div>
