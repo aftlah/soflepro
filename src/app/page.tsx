@@ -95,252 +95,271 @@ import dataGame from "@/utils/datas";
 // ];
 
 export default function Home() {
-    const router = useRouter();
+  const router = useRouter();
 
-    return (
-        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px]">
-            {/* Section 1 */}
-            <section className="md:flex md:flex-row">
-                <div className="md:max-w-[60%] ">
-                    <div className="text-[36px] font-extrabold text-white leading-tight uppercase">
-                        <h1 className="dark:text-white text-[#4EEEBB]">
-                            <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
-                        </h1>
-                        <h1 className="dark:text-white text-[#4EEEBB]">
-                            <span className="text-[#092534] dark:text-[#4EEEBB]">F</span>or{" "}
-                            <span className="text-[#092534] dark:text-[#4EEEBB]">LE</span>arn
-                        </h1>
-                        <h1 className="dark:text-white text-[#4EEEBB]">
-                            <span className="text-[#092534] dark:text-[#4EEEBB]">PRO</span>
-                            gramming
-                        </h1>
-                    </div>
-                    <div className="mt-3">
-                        <p className="text-[16px]  md:pr-10">
-                            Menyediakan sumber belajar untuk kamu yang ingin mempelajari
-                            dasar-dasar bahasa pemrograman C++, Python, Javascript dan PHP
-                            secara GRATIS lhoo
-                        </p>
-                    </div>
-                    <div className="mt-3 ">
-                        <Button
-                            className="font-medium px-5 border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
-                            // onClick={() => {
-                            //     const section = document.getElementById("target-section");
-                            //     if (section) {
-                            //         section.scrollIntoView({ behavior: "smooth" });
-                            //     }
-                            // }}
+  return (
+    <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px]">
+      {/* Section 1 */}
+      <section className="md:flex md:flex-row">
+        <div className="md:max-w-[60%] ">
+          <div className="text-[36px] font-extrabold text-white leading-tight uppercase">
+            <h1 className="dark:text-white text-[#4EEEBB]">
+              <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
+            </h1>
+            <h1 className="dark:text-white text-[#4EEEBB]">
+              <span className="text-[#092534] dark:text-[#4EEEBB]">F</span>or{" "}
+              <span className="text-[#092534] dark:text-[#4EEEBB]">LE</span>arn
+            </h1>
+            <h1 className="dark:text-white text-[#4EEEBB]">
+              <span className="text-[#092534] dark:text-[#4EEEBB]">PRO</span>
+              gramming
+            </h1>
+          </div>
+          <div className="mt-3">
+            <p className="text-[16px]  md:pr-10">
+              Menyediakan sumber belajar untuk kamu yang ingin mempelajari
+              dasar-dasar bahasa pemrograman C++, Python, Javascript dan PHP
+              secara GRATIS lhoo
+            </p>
+          </div>
+          <div className="mt-3 ">
+            <Button
+              className="font-medium px-5 border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
+              // onClick={() => {
+              //     const section = document.getElementById("target-section");
+              //     if (section) {
+              //         section.scrollIntoView({ behavior: "smooth" });
+              //     }
+              // }}
 
-                            onClick={() => router.push("/learn")}
-                        >
-                            Belajar Sekarang {">"}
-                        </Button>
-                    </div>
-                </div>
-                <div className="md:w-[40%] md:flex items-center justify-center hidden">
-                    <Image
-                        src={"/images/head-banner.svg"}
-                        width={300}
-                        height={300}
-                        alt="hero"
-                    />
-                </div>
-            </section>
-
-            {/* Section 2 */}
-            <section className="mt-10 md:mt-20">
-                <div>
-                    <h1 className="text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:max-w-sm md:mx-auto">
-                        Kenalan dulu dengan bahasa pemrograman
-                    </h1>
-                    <p className="text-[16px] md:max-w-80 md:text-center md:mx-auto md:mt-1 md:mb-5">
-                        Sebelum kamu belajar secara dalam. Yuk kenalan dulu dengan
-                        bahasa-bahasa tersebut
-                    </p>
-                </div>
-                <div className="grid grid-cols-2 gap-4 mt-3 lg:grid-cols-4 md:px-[100px]">
-                    <div
-                        onClick={() => router.push(`/detail/${encodeURIComponent("cpp")}`)}
-                        className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
-                    >
-                        <div className="flex gap-x-2 items-center py-2 px-2 ">
-                            <Image
-                                src={"/images/cpp.svg"}
-                                width={40}
-                                height={40}
-                                alt="cpplogo"
-                            />
-                            <div className="font-semibold">CPP</div>
-                        </div>
-                    </div>
-                    <div
-                        onClick={() =>
-                            router.push(`/detail/${encodeURIComponent("javascript")}`)
-                        }
-                        className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
-                    >
-                        <div className="flex gap-x-2 items-center py-2 px-2">
-                            <Image
-                                src="/images/js.svg"
-                                width={40}
-                                height={40}
-                                alt="JS Logo"
-                            />
-                            <div className="font-semibold">Java</div>
-                        </div>
-                    </div>
-                    <div
-                        onClick={() =>
-                            router.push(`/detail/${encodeURIComponent("python")}`)
-                        }
-                        className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
-                    >
-                        <div className="flex gap-x-2 items-center py-2 px-2 ">
-                            <Image
-                                src="/images/py.svg"
-                                alt="PYTHON Logo"
-                                width={40}
-                                height={40}
-                            />
-                            <div className="font-semibold">PYTHON</div>
-                        </div>
-                    </div>
-
-                    <div
-                        onClick={() => router.push(`/detail/${encodeURIComponent("php")}`)}
-                        className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
-                    >
-                        <div className="flex gap-x-2 items-center py-2 px-2 ">
-                            <Image
-                                src="/images/php.svg"
-                                alt="PHP Logo"
-                                width={40}
-                                height={40}
-                            />
-                            <div className="font-semibold">PHP</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Section 3 */}
-            <section className="mt-10">
-                <div className="flex  flex-col gap-y-2">
-                    <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:max-w-lg lg:max-w-lg md:mt-10">
-                        Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
-                    </h1>
-                    <p className="text-[16px] md:text-center md:mx-auto md:max-w-md">
-                        Kalian sudah mengetahui bahasa pemrograman diatas, dibagian ini
-                        kalian akan melihat apa saja sih website dan game yang basis
-                        pemrogramannya adalah cpp, python, javascript dan php.
-                    </p>
-                </div>
-            </section>
-
-            {/* Section 4 */}
-            <section className="md:mt-5">
-                <div className="flex flex-col">
-                    {dataGame.map((languageData, index) => (
-                        <div key={index} className="mt-11 md:mt-5 md:mb-5 container md:text-center border-primary">
-                            <div className="md:mb-10">
-                                <h1 className="text-lg md:text-2xl font-extrabold text-primary">
-                                    {languageData.language}
-                                </h1>
-                            </div>
-                            <div className="grid grid-cols-2 lg:grid-cols-4  justify-center items-center gap-x-10 mt-[8px] md:justify-start md:px-[140px]">
-                                {languageData.apps.map((app, appIndex) => (
-                                    <div
-                                        key={appIndex}
-                                        className="flex justify-center items-center flex-col gap-y-2 mb-5"
-                                    >
-                                        <Image
-                                            src={app.image}
-                                            width={180}
-                                            height={100}
-                                            alt={`${app.title} Logo`}
-                                            className="border-2 border-[#092534] dark:border-none rounded-xl "
-                                            style={{ width: "auto", height: "auto" }}
-                                        />
-                                        <div className="font-extrabold text-center">{app.title}</div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </section>
-
-            {/* Section 5 */}
-            <section className="">
-                <div className="w-full flex justify-center items-center mx-auto">
-                    <h1 className="text-xl md:text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px] md:w-[400px] uppercase">
-                        Kenapa kita harus belajar dasar bahasa pemrograman?
-                    </h1>
-                </div>
-
-                <div className="flex flex-col justify-center items-center md:flex-row md:gap-x-3  md:mt-8">
-                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[50px] md:mt-0 min-h-[250px]">
-                        <Image
-                            src={"/images/image-footer1.svg"}
-                            width={148}
-                            height={148}
-                            alt="img-footer1"
-                            style={{ width: "auto", height: "auto" }}
-                        />
-                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Membangun Logika dan Problem Solving
-                        </h1>
-                    </div>
-                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-9 min-h-[250px]">
-                        <Image
-                            src={"/images/image-footer3.svg"}
-                            width={148}
-                            height={148}
-                            alt="img-footer2"
-                            style={{ width: "auto", height: "auto" }}
-                        />
-                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Pondasi untuk Belajar teknologi yang Lebih Kompleks seperti
-                            framework
-                        </h1>
-                    </div>
-                    <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-0 min-h-[250px]">
-                        <Image
-                            src={"/images/image-footer2.svg"}
-                            width={148}
-                            height={148}
-                            alt="img-footer3"
-                            style={{ width: "auto", height: "auto" }}
-                        />
-                        <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Peluang Karir yang Luas
-                        </h1>
-                    </div>
-                </div>
-            </section>
-
-            {/* Section 6 */}
-
-            <section className="mt-[65px]">
-                <div className="flex flex-col justify-center items-center gap-y-[23px]">
-                    <h1 className="font-extrabold text-[24px] dark:text-primary uppercase">
-                        Gabung Komunitas
-                    </h1>
-                    <Link href={""}>
-                        <Image
-                            src={"/images/whatsapp.svg"}
-                            width={58}
-                            height={58}
-                            alt="img-footer1"
-                            style={{ width: "auto", height: "auto" }}
-                        />
-                    </Link>
-                </div>
-            </section>
-
-
-            
+              onClick={() => router.push("/learn")}
+            >
+              Belajar Sekarang {">"}
+            </Button>
+          </div>
         </div>
-    );
+        <div className="md:w-[40%] md:flex items-center justify-center hidden">
+          <Image
+            src={"/images/head-banner.svg"}
+            width={300}
+            height={300}
+            alt="hero"
+          />
+        </div>
+      </section>
+
+      {/* Section 2 */}
+      <section className="mt-10 md:mt-20">
+        <div>
+          <h1 className="text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:max-w-sm md:mx-auto">
+            Kenalan dulu dengan bahasa pemrograman
+          </h1>
+          <p className="text-[16px] md:max-w-80 md:text-center md:mx-auto md:mt-1 md:mb-5">
+            Sebelum kamu belajar secara dalam. Yuk kenalan dulu dengan
+            bahasa-bahasa tersebut
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-4 mt-3 lg:grid-cols-4 md:px-[100px]">
+          <div
+            onClick={() => router.push(`/detail/${encodeURIComponent("cpp")}`)}
+            className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
+          >
+            <div className="flex gap-x-2 items-center py-2 px-2 ">
+              <Image
+                src={"/images/cpp.svg"}
+                width={40}
+                height={40}
+                alt="cpplogo"
+              />
+              <div className="font-semibold">CPP</div>
+            </div>
+          </div>
+          <div
+            onClick={() =>
+              router.push(`/detail/${encodeURIComponent("javascript")}`)
+            }
+            className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
+          >
+            <div className="flex gap-x-2 items-center py-2 px-2">
+              <Image
+                src="/images/js.svg"
+                width={40}
+                height={40}
+                alt="JS Logo"
+              />
+              <div className="font-semibold">Java</div>
+            </div>
+          </div>
+          <div
+            onClick={() =>
+              router.push(`/detail/${encodeURIComponent("python")}`)
+            }
+            className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
+          >
+            <div className="flex gap-x-2 items-center py-2 px-2 ">
+              <Image
+                src="/images/py.svg"
+                alt="PYTHON Logo"
+                width={40}
+                height={40}
+              />
+              <div className="font-semibold">PYTHON</div>
+            </div>
+          </div>
+
+          <div
+            onClick={() => router.push(`/detail/${encodeURIComponent("php")}`)}
+            className="cursor-pointer dark:hover:bg-[#4EEEBB] dark:hover:text-[#092534] hover:bg-[#092534] hover:text-white  rounded-xl border-2 dark:border-[#4EEEBB] border-[#092534] transition duration-400 ease-in-out"
+          >
+            <div className="flex gap-x-2 items-center py-2 px-2 ">
+              <Image
+                src="/images/php.svg"
+                alt="PHP Logo"
+                width={40}
+                height={40}
+              />
+              <div className="font-semibold">PHP</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3 */}
+      <section className="mt-10">
+        <div className="flex  flex-col gap-y-2">
+          <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:max-w-lg lg:max-w-lg md:mt-10">
+            Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
+          </h1>
+          <p className="text-[16px] md:text-center md:mx-auto md:max-w-md">
+            Kalian sudah mengetahui bahasa pemrograman diatas, dibagian ini
+            kalian akan melihat apa saja sih website dan game yang basis
+            pemrogramannya adalah cpp, python, javascript dan php.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 4 */}
+      <section className="md:mt-5">
+        <div className="flex flex-col">
+          {dataGame.map((languageData, index) => (
+            <div
+              key={index}
+              className="mt-11 md:mt-5 md:mb-5 container md:text-center border-primary"
+            >
+              <div className="md:mb-10">
+                <h1 className="text-lg md:text-2xl font-extrabold text-primary">
+                  {languageData.language}
+                </h1>
+              </div>
+              <div className="grid grid-cols-2 lg:grid-cols-4  justify-center items-center gap-x-10 mt-[8px] md:justify-start md:px-[140px]">
+                {languageData.apps.map((app, appIndex) => (
+                  <div
+                    key={appIndex}
+                    className="flex justify-center items-center flex-col gap-y-2 mb-5"
+                  >
+                    <Image
+                      src={app.image}
+                      width={180}
+                      height={100}
+                      alt={`${app.title} Logo`}
+                      className="border-2 border-[#092534] dark:border-none rounded-xl "
+                      style={{ width: "auto", height: "auto" }}
+                    />
+                    <div className="font-extrabold text-center">
+                      {app.title}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Section 5 */}
+      <section className="">
+        <div className="w-full flex justify-center items-center mx-auto">
+          <h1 className="text-xl md:text-2xl text-center mt-[75px]  font-extrabold dark:text-primary w-[341px] md:w-[400px] uppercase">
+            Kenapa kita harus belajar dasar bahasa pemrograman?
+          </h1>
+        </div>
+
+        <div className="flex flex-col justify-center items-center md:flex-row md:gap-x-3  md:mt-8">
+          <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[50px] md:mt-0 min-h-[250px]">
+            <Image
+              src={"/images/image-footer1.svg"}
+              width={148}
+              height={148}
+              alt="img-footer1"
+              style={{ width: "auto", height: "auto" }}
+            />
+            <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
+              Membangun Logika dan Problem Solving
+            </h1>
+          </div>
+          <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-9 min-h-[250px]">
+            <Image
+              src={"/images/image-footer3.svg"}
+              width={148}
+              height={148}
+              alt="img-footer2"
+              style={{ width: "auto", height: "auto" }}
+            />
+            <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
+              Pondasi untuk Belajar teknologi yang Lebih Kompleks seperti
+              framework
+            </h1>
+          </div>
+          <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-0 min-h-[250px]">
+            <Image
+              src={"/images/image-footer2.svg"}
+              width={148}
+              height={148}
+              alt="img-footer3"
+              style={{ width: "auto", height: "auto" }}
+            />
+            <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
+              Peluang Karir yang Luas
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 6 */}
+
+      <section className="mt-[65px]">
+        <div className="flex flex-col justify-center items-center gap-y-[23px]">
+          <h1 className="font-extrabold text-[24px] dark:text-primary uppercase">
+            Gabung Komunitas
+          </h1>
+          <div className="md:flex md:gap-5">
+            <Link
+              target="_blank"
+              href={"https://chat.whatsapp.com/FJtKCGovsuhAdzbfrbQNAH"}
+            >
+              <Image
+                src={"/images/whatsapp.svg"}
+                width={58}
+                height={58}
+                alt="img-footer1"
+                style={{ width: "auto", height: "auto" }}
+              />
+            </Link>
+            <Link
+              target="_blank"
+              href={"https://discord.com/invite/seJKCqASJ3"}
+            >
+              <Image
+                src={"/images/whatsapp.svg"}
+                width={58}
+                height={58}
+                alt="img-footer1"
+                style={{ width: "auto", height: "auto" }}
+              />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
