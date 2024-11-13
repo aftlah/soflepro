@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Alasan saya memilih Django Web Framework!",
+        "url": "https://www.youtube.com/watch?v=yHowT4SyKM4&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=1&pp=iAQB"
+    },
+    {
+        "title": "Apa itu Django Web Framework?",
+        "url": "https://www.youtube.com/watch?v=Ok0JlTJiEn4&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=2&pp=iAQB"
+    },
+    {
+        "title": "Setup & Persiapan Django",
+        "url": "https://www.youtube.com/watch?v=6z7EWcZTkko&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=3&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan Struktur Projek Django Web Framework",
+        "url": "https://www.youtube.com/watch?v=sYc756QU_aA&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=4&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan URLS atau Route di Django Web Framework",
+        "url": "https://www.youtube.com/watch?v=Jr1gAjktg0k&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=5&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan Views Django Web Framework",
+        "url": "https://www.youtube.com/watch?v=W4l9ZqwoKN4&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=6&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan dan Installasi Templates Django Framework",
+        "url": "https://www.youtube.com/watch?v=U6XG6bNFXYE&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=7&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan, Installasi dan Setting Aplikasi",
+        "url": "https://www.youtube.com/watch?v=g96anmz-O6M&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=8&pp=iAQB"
+    },
+    {
+        "title": "Manajemen URLS Project dan Aplikasi",
+        "url": "https://www.youtube.com/watch?v=Qh0wPhXED7A&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=9&pp=iAQB"
+    },
+    {
+        "title": "Manajemen Templates Project dan Aplikasi",
+        "url": "https://www.youtube.com/watch?v=9gL-HWwRTWU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=10&pp=iAQB"
+    },
+    {
+        "title": "Context Sebagai Templates Variabel",
+        "url": "https://www.youtube.com/watch?v=YhI43rUaLuE&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=11&pp=iAQB"
+    },
+    {
+        "title": "Menggunakan Template Tags",
+        "url": "https://www.youtube.com/watch?v=Gt64D21k2I8&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=12&pp=iAQB"
+    },
+    {
+        "title": "How To Manage Staticfiles Images",
+        "url": "https://www.youtube.com/watch?v=OuLmvsmmXzQ&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=13&pp=iAQB"
+    },
+    {
+        "title": "How To Manage Staticfiles Style CSS?",
+        "url": "https://www.youtube.com/watch?v=XQVcXpooynk&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=14&pp=iAQB"
+    },
+    {
+        "title": "Integrasikan TailwindCSS dengan Django Project",
+        "url": "https://www.youtube.com/watch?v=iEb9Xr7D__I&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=15&pp=iAQB"
+    },
+    {
+        "title": "Installasi BootstrapCSS dan SASS di Django Project",
+        "url": "https://www.youtube.com/watch?v=9zasnN0rUKc&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=16&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan Models dan Databases",
+        "url": "https://www.youtube.com/watch?v=X16xWHkjFuU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=17&pp=iAQB"
+    },
+    {
+        "title": "Integrasi dan Setup MySQL XAMPP",
+        "url": "https://www.youtube.com/watch?v=ttkGLQ7KZWE&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=18&pp=iAQB"
+    },
+    {
+        "title": "Integrasi PostgreSQL di Django Project",
+        "url": "https://www.youtube.com/watch?v=6ip6EbRUp0I&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=19&pp=iAQB"
+    },
+    {
+        "title": "Membuat Models dan Register Apps pada Admin",
+        "url": "https://www.youtube.com/watch?v=65YcLNiw0mU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=20&pp=iAQB"
+    },
+    {
+        "title": "Database Relatioships | Hubungan Antar Tabel",
+        "url": "https://www.youtube.com/watch?v=0VWgQaDKQSU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=21&pp=iAQB"
+    },
+    {
+        "title": "Menampilkan Data Models",
+        "url": "https://www.youtube.com/watch?v=Y6sZm9FKxCU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=22&pp=iAQB"
+    },
+    {
+        "title": "Models Object Relational Mapping in Python Shell",
+        "url": "https://www.youtube.com/watch?v=SscH4uXN5dE&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=23&pp=iAQB"
+    },
+    {
+        "title": "Multiple Databases",
+        "url": "https://www.youtube.com/watch?v=5URAXjfD1LY&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=24&pp=iAQB"
+    },
+    {
+        "title": "Django ORM: With Multiple Databases in Python Shell",
+        "url": "https://www.youtube.com/watch?v=BNjJsEazzpM&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=25&pp=iAQB"
+    },
+    {
+        "title": "Lebih Lanjut QuerySet dengan Python Shell",
+        "url": "https://www.youtube.com/watch?v=QhFk1jrk5jU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=26&pp=iAQB"
+    },
+    {
+        "title": "Menampilkan QuerySet Ke Views Dan Template HTML",
+        "url": "https://www.youtube.com/watch?v=OGMrapZ3R3k&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=27&pp=iAQB"
+    },
+    {
+        "title": "Membuat Routing Dinamis dengan URL Dispatcher",
+        "url": "https://www.youtube.com/watch?v=p86JVDw669I&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=28&pp=iAQB"
+    },
+    {
+        "title": "Membuat Link Slug Menggunakan Slugify",
+        "url": "https://www.youtube.com/watch?v=XAZC-5zcrCo&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=29&pp=iAQB"
+    },
+    {
+        "title": "Latihan Pertama Aplikasi Blog #part1",
+        "url": "https://www.youtube.com/watch?v=AovBpKPtngY&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=30&pp=iAQB"
+    },
+    {
+        "title": "Latihan Pertama Aplikasi Blog #part2",
+        "url": "https://www.youtube.com/watch?v=Qf3-J7XLlfA&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=31&pp=iAQB"
+    },
+    {
+        "title": "URL Name dan Namespace",
+        "url": "https://www.youtube.com/watch?v=jz78R1U8WJ8&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=32&pp=iAQB"
+    },
+    {
+        "title": "Latihan Pertama Aplikasi Blog #part3",
+        "url": "https://www.youtube.com/watch?v=4A-r5cYjK3Y&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=33&pp=iAQB"
+    },
+    {
+        "title": "Working With Forms",
+        "url": "https://www.youtube.com/watch?v=KyKBImUI-gI&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=34&pp=iAQB"
+    },
+    {
+        "title": "Membuat Form Dengan Class Forms",
+        "url": "https://www.youtube.com/watch?v=NMtzNU9bxYU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=35&pp=iAQB"
+    },
+    {
+        "title": "Fields and Widget In Class Forms",
+        "url": "https://www.youtube.com/watch?v=xIxpUo1uWsk&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=36&pp=iAQB"
+    },
+    {
+        "title": "Class Forms Dengan BootstrapCSS",
+        "url": "https://www.youtube.com/watch?v=9oGsPrOhoKc&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=37&pp=iAQB"
+    },
+    {
+        "title": "Koneksi Forms Ke Models",
+        "url": "https://www.youtube.com/watch?v=gnKWEK0LR9o&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=38&pp=iAQB"
+    },
+    {
+        "title": "Cleaned Data and Validation Forms",
+        "url": "https://www.youtube.com/watch?v=E2ynht8RRe4&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=39&pp=iAQB"
+    },
+    {
+        "title": "Model Form",
+        "url": "https://www.youtube.com/watch?v=HBEB6N1zJbY&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=40&pp=iAQB"
+    },
+    {
+        "title": "Model Field Validators",
+        "url": "https://www.youtube.com/watch?v=b6VVdo7PLTk&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=41&pp=iAQB"
+    },
+    {
+        "title": "CRUD Deleting Data",
+        "url": "https://www.youtube.com/watch?v=BQZ0rW1NL4g&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=42&pp=iAQB"
+    },
+    {
+        "title": "CRUD Updating Data",
+        "url": "https://www.youtube.com/watch?v=OstiZw4Wx9E&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=43&pp=iAQB"
+    },
+    {
+        "title": "CRUD The Message",
+        "url": "https://www.youtube.com/watch?v=YwxbXqABYLU&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=44&pp=iAQB"
+    },
+    {
+        "title": "CRUD Upload & Updating Image Files",
+        "url": "https://www.youtube.com/watch?v=Fu_vuDftijY&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=45&pp=iAQB"
+    },
+    {
+        "title": "User Management (Introduction)",
+        "url": "https://www.youtube.com/watch?v=GxN84Slm5r0&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=46&pp=iAQB"
+    },
+    {
+        "title": "How to Login & Logout Users",
+        "url": "https://www.youtube.com/watch?v=fuHFSWENn3c&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=47&pp=iAQB"
+    },
+    {
+        "title": "How to Register Users",
+        "url": "https://www.youtube.com/watch?v=N0yjBFRV6cc&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=48&pp=iAQB"
+    },
+    {
+        "title": "Limited Access to Auth Users",
+        "url": "https://www.youtube.com/watch?v=iE5KOka0D2Y&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=49&pp=iAQB"
+    },
+    {
+        "title": "Change Password",
+        "url": "https://www.youtube.com/watch?v=wiAE6H9AoCM&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=50&pp=iAQB"
+    },
+    {
+        "title": "Reset Password",
+        "url": "https://www.youtube.com/watch?v=TclfrEipKvQ&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=51&pp=iAQB"
+    },
+    {
+        "title": "Custom Users",
+        "url": "https://www.youtube.com/watch?v=zQj-cNleMZo&list=PLHYR0nzhk0hevZx1Ii5b-vJq7kPDApTAd&index=52&pp=iAQB"
+    }
+]

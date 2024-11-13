@@ -123,8 +123,9 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-3 ">
-            <Button
-              className="font-medium px-5 border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
+            <Link
+            href="#lang"
+              className="font-medium px-5 py-2 rounded-lg border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
               // onClick={() => {
               //     const section = document.getElementById("target-section");
               //     if (section) {
@@ -132,10 +133,10 @@ export default function Home() {
               //     }
               // }}
 
-              onClick={() => router.push("/learn")}
+              // onClick={() => router.push("/learn")}
             >
               Belajar Sekarang {">"}
-            </Button>
+            </Link>
           </div>
         </div>
         <div className="md:w-[40%] md:flex items-center justify-center hidden">

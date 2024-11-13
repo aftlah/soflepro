@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,12 +8,13 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
 import { useRouter } from "next/navigation";
-
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const router = useRouter();
+  const pathname = usePathname();
   const { setTheme } = useTheme();
   const [onNavbarClick, setOnNavbarClick] = useState(false);
 
@@ -44,6 +44,8 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+
+    
   }, []);
 
   return (
@@ -60,38 +62,56 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex">
             <ul className="flex gap-4 md:items-center">
-              <li>
-                <a
-                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                  href="#home"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                  href="#lang"
-                >
-                  Learn Programming Language
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                  href="#about"
-                >
-                  About us
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                  href="#community"
-                >
-                  Community
-                </a>
-              </li>
+              {/* Conditional rendering of the Home link */}
+              {pathname === "/" ? (
+                <div className="flex gap-4">
+                  <li>
+                    <a
+                      className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                      href="/#home"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <div className="md:flex md:gap-4">
+                <li>
+                  <a
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#lang"
+                  >
+                    Learn Programming Language
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#about"
+                  >
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#community"
+                  >
+                    Community
+                  </a>
+                </li>
+              </div>
+                </div>
+              ) : (
+                <li>
+                  <a
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+              )}
+
+              
               <li>
                 <div className="flex justify-start px-[10px]">
                   <DropdownMenu>
@@ -196,13 +216,28 @@ export default function Navbar() {
                   </DropdownMenuTrigger>
 
                   <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => {setTheme("light"); setOnNavbarClick(false)}}>
+                    <DropdownMenuItem
+                      onClick={() => {
+                        setTheme("light");
+                        setOnNavbarClick(false);
+                      }}
+                    >
                       Light
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => {setTheme("dark"); setOnNavbarClick(false)}}>
+                    <DropdownMenuItem
+                      onClick={() => {
+                        setTheme("dark");
+                        setOnNavbarClick(false);
+                      }}
+                    >
                       Dark
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => {setTheme("system"); setOnNavbarClick(false)}}>
+                    <DropdownMenuItem
+                      onClick={() => {
+                        setTheme("system");
+                        setOnNavbarClick(false);
+                      }}
+                    >
                       System
                     </DropdownMenuItem>
                   </DropdownMenuContent>

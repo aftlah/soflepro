@@ -31,6 +31,8 @@ export default function DetailPembelajaranPage() {
     php: "/contents/playlist_php.json",
   };
 
+  
+
   const content = {
     cpp: {
       logo: "/images/cpp.svg",
@@ -40,7 +42,8 @@ export default function DetailPembelajaranPage() {
         "C++ memungkinkan kamu untuk mengembangkan berbagai jenis aplikasi, termasuk game 3D, perangkat lunak grafis, simulasi fisika, aplikasi desktop, perangkat lunak untuk kendaraan, hingga pengembangan sistem operasi.",
       header:
         "Video tutorial cpp datang dari channel Youtube Kelas Terbuka. Pada Playlist ini Kalian akan belajar lebih dari 80 Materi Pemrograman bahasa cpp. Selamat belajar >.<",
-    },python: {
+    },
+    python: {
       logo: "/images/py.svg",
       desc1:
         "Python adalah bahasa pemrograman tingkat tinggi yang terkenal karena sintaks yang mudah dipahami dan fleksibel. Bahasa ini sangat cocok untuk pemula dan juga populer di kalangan ilmuwan data, pengembang web, dan developer AI.",
@@ -49,7 +52,7 @@ export default function DetailPembelajaranPage() {
       header:
         "Video tutorial Python berasal dari channel Youtube Kelas Terbuka. Pada Playlist ini kalian akan belajar lebih dari 70 materi. Selamat belajar >.<",
     },
-    
+
     java: {
       logo: "/images/java.svg",
       desc1:
@@ -59,7 +62,7 @@ export default function DetailPembelajaranPage() {
       header:
         "Video tutorial Java berasal dari channel Youtube Kelas Terbuka. Pada Playlist ini kalian akan belajar lebih dari 60 materi. Selamat belajar >.<",
     },
-    
+
     javascript: {
       logo: "/images/js.svg",
       desc1:
@@ -69,7 +72,7 @@ export default function DetailPembelajaranPage() {
       header:
         "Video tutorial JavaScript berasal dari channel Youtube WPU. Pada Playlist ini kalian akan belajar lebih dari 40 materi. Selamat belajar >.<",
     },
-    
+
     php: {
       logo: "/images/php.svg",
       desc1:
@@ -78,8 +81,7 @@ export default function DetailPembelajaranPage() {
         "PHP memungkinkan kamu mengembangkan aplikasi web interaktif, membuat sistem manajemen konten (CMS), dan membangun e-commerce. PHP juga memiliki banyak framework seperti Laravel dan CodeIgniter yang mempercepat proses pengembangan.",
       header:
         "Video tutorial PHP berasal dari channel Youtube Kelas Terbuka. Pada Playlist ini kalian akan belajar lebih dari 20 materi. Selamat belajar >.<",
-    }
-    
+    },
   };
 
   const currentPlaylist = dataPlaylist[bahasaPemrograman as keyof typeof dataPlaylist];
@@ -99,9 +101,13 @@ export default function DetailPembelajaranPage() {
         .then((data) => setPlaylistData(data))
         .catch((error) => console.error("Error loading JSON:", error));
     }
-  }, [bahasaPemrograman]);
 
-  const totalPages = playlistData ? Math.ceil(playlistData.length / itemsPerPage) : 1;
+    
+  }, [bahasaPemrograman, window.location.pathname]);
+
+  const totalPages = playlistData
+    ? Math.ceil(playlistData.length / itemsPerPage)
+    : 1;
 
   const handleNextPage = () => {
     if (currentPage < totalPages) setCurrentPage(currentPage + 1);
@@ -112,24 +118,36 @@ export default function DetailPembelajaranPage() {
   };
 
   const paginatedData = playlistData
-    ? playlistData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+    ? playlistData.slice(
+        (currentPage - 1) * itemsPerPage,
+        currentPage * itemsPerPage
+      )
     : [];
 
   return (
-    <div className="px-[25px]">
+    <div className="px-[25px] md:px-[20px] lg:px-[30px] xl:px-[31px]">
       {contentData ? (
         <>
           <h1 className="text-2xl font-extrabold dark:text-primary mb-4">
-            Bahasa {typeof bahasaPemrograman === "string" ? bahasaPemrograman.toUpperCase() : ""}
+            Bahasa{" "}
+            {typeof bahasaPemrograman === "string"
+              ? bahasaPemrograman.toUpperCase()
+              : ""}
           </h1>
           <Image src={contentData.logo} alt="" width={65} height={65} />
 
           <div className="mt-5 flex flex-col gap-y-3 mb-12">
-            <p className="font-medium text-[16px] md:max-w-xl">{contentData.desc1}</p>
-            <p className="font-medium text-[16px] md:max-w-xl">{contentData.desc2}</p>
+            <p className="font-medium text-[16px] md:max-w-xl">
+              {contentData.desc1}
+            </p>
+            <p className="font-medium text-[16px] md:max-w-xl">
+              {contentData.desc2}
+            </p>
           </div>
 
-          <h2 className="text-2xl font-extrabold dark:text-primary">Video Pembelajaran</h2>
+          <h2 className="text-2xl font-extrabold dark:text-primary">
+            Video Pembelajaran
+          </h2>
 
           {playlistData ? (
             <div className="mt-3 ">
@@ -138,8 +156,19 @@ export default function DetailPembelajaranPage() {
                 {paginatedData.map((item, index) => (
                   <Link href={item.url} key={index} target="_blank">
                     <div className="bg-none border-2 hover:bg-[#092534] hover:text-white border-[#092534] dark:border-primary dark:hover:bg-primary dark:hover:text-[#092534] transition-all ease-in duration-150 my-2 dark:text-[#fff] px-3 rounded-xl text-[#092534] flex items-center py-1 gap-x-2">
-                      <Image src={contentData.logo} alt={item.title} width={45} height={45} />
-                      <p className="text-[11px] font-extrabold">{item.title}</p>
+                      <Image
+                        src={contentData.logo}
+                        alt={item.title}
+                        width={45}
+                        height={45}
+                      />
+                      <p
+                        className="text-[11px] font-bold uppercase
+                      
+                      "
+                      >
+                        {item.title}
+                      </p>
                     </div>
                   </Link>
                 ))}
