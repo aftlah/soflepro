@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState, } from "react";
+import React, { useEffect, useState } from "react";
 
 import {
   DropdownMenu,
@@ -42,38 +42,54 @@ export default function Navbar() {
     <>
       <div className="navbar fixed w-full">
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
-          <div onClick={() => router.push('/')} className="text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
+          <div onClick={() => router.push('/')} className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
             SOFLEPRO
           </div>
 
-          <div className="lg:hidden">
-            <div>
-              <button
-                onClick={handleNavbarClick}
-                className="bg-transparent p-2"
-                title="Menu"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-7 text-dark dark:text-[#4EEEBB]"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-                  />
-                </svg>
-              </button>
-            </div>
+          {/* Desktop Menu */}
+          <div className="hidden md:flex">
+            <ul className="flex gap-4">
+              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#home">Home</a></li>
+              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#lang">Learn Programming Language</a></li>
+              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#about">About us</a></li>
+              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#community">Community</a></li>
+            </ul>
           </div>
 
+          {/* Mobile Hamburger Icon */}
+          <div className="lg:hidden">
+            <button
+              onClick={handleNavbarClick}
+              className="bg-transparent p-2"
+              title="Menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6 text-dark dark:text-[#4EEEBB]"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Mobile Menu */}
           {onNavbarClick && (
-            <div className="bg-red-500 container px-4 py-1 absolute top-[70px] right-10 w-auto h-screen">
-              <div className="flex">
+            <div className="absolute top-[70px] right-0 left-0 bg-[#092534] dark:bg-[#1b1b1b] p-4 md:hidden">
+              <ul className="flex flex-col gap-4 text-white px-[15px]">
+                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#home">Home</a></li>
+                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#lang">Learn Programming Language</a></li>
+                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#about">About us</a></li>
+                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#community">Community</a></li>
+              </ul>
+              <div className="mt-4 flex justify-center">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="icon">
@@ -94,11 +110,6 @@ export default function Navbar() {
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
               </div>
             </div>
           )}

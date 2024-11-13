@@ -42,6 +42,27 @@ const dataGame = [
         ],
     },
     {
+        language: "JAVA",
+        apps: [
+            {
+                title: "SPOTIFY",
+                image: "/images/spotify.svg",
+            },
+            {
+                title: "NETFLIX",
+                image: "/images/Netflix.svg",
+            },
+            {
+                title: "LINKEDIN",
+                image: "/images/linkedin.svg",
+            },
+            {
+                title: "X",
+                image: "/images/X.svg",
+            },
+        ],
+    },
+    {
         language: "JAVASCRIPT",
         apps: [
             {
