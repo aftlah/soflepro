@@ -1,0 +1,178 @@
+[
+    {
+        "title": "1. Dasar Pemrograman dengan Javascript : INTRO",
+        "url": "https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=1&pp=iAQB"
+    },
+    {
+        "title": "2. APA ITU PEMROGRAMAN?",
+        "url": "https://www.youtube.com/watch?v=Ncrlg9kTC6U&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=2&pp=iAQB"
+    },
+    {
+        "title": "3. BAHASA PEMROGRAMAN",
+        "url": "https://www.youtube.com/watch?v=dugL0oYx0w0&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=3&pp=iAQB"
+    },
+    {
+        "title": "4. COMPILER VS. INTERPRETER",
+        "url": "https://www.youtube.com/watch?v=gCBysZKiU3Y&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=4&pp=iAQB"
+    },
+    {
+        "title": "5. KENAPA BELAJAR JAVASCRIPT?",
+        "url": "https://www.youtube.com/watch?v=6UhT1lmV9DE&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=5&pp=iAQB"
+    },
+    {
+        "title": "SEJARAH JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=G4LEU-NtQUg&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=6&pp=iAQB"
+    },
+    {
+        "title": "LINGKUNGAN PENGEMBANGAN JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=h7zwbfS5CVU&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=7&pp=iAQB"
+    },
+    {
+        "title": "NILAI DAN TIPE DATA PADA JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=1FAnrYu7LCM&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=8&pp=iAQB"
+    },
+    {
+        "title": "TIPE DATA PADA JAVASCRIPT : ANGKA",
+        "url": "https://www.youtube.com/watch?v=oPlEq7fewIg&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=9&pp=iAQB"
+    },
+    {
+        "title": "OPERATOR PADA JAVASCRIPT : Aritmatika, Penugasan & Perbandingan",
+        "url": "https://www.youtube.com/watch?v=EnXClrVdpTM&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=10&pp=iAQB"
+    },
+    {
+        "title": "OPERATOR PADA JAVASCRIPT : Logika, String, Typeof dan Kondisional",
+        "url": "https://www.youtube.com/watch?v=_XSeF00qNWE&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=11&pp=iAQB"
+    },
+    {
+        "title": "TIPE DATA PADA JAVASCRIPT : STRING",
+        "url": "https://www.youtube.com/watch?v=ud322_5-M3s&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=12&pp=iAQB"
+    },
+    {
+        "title": "TIPE DATA pada JAVASCRIPT : BOOLEAN",
+        "url": "https://www.youtube.com/watch?v=y1X-JoJMXXA&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=13&pp=iAQB"
+    },
+    {
+        "title": "VARIABLE pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=X1q_cK0Qv6o&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=14&pp=iAQB"
+    },
+    {
+        "title": "MENULIS JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=a7Kheeu59JQ&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=15&pp=iAQB"
+    },
+    {
+        "title": "POPUP BOX pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=4f4Cqr3NSRI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=16&pp=iAQB"
+    },
+    {
+        "title": "CONTROL FLOW pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=cL5aeWbIEuk&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=17&pp=iAQB"
+    },
+    {
+        "title": "PENGULANGAN : WHILE pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=61XLzozBj2c&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=18&pp=iAQB"
+    },
+    {
+        "title": "PENGULANGAN : TABEL PENELUSURAN",
+        "url": "https://www.youtube.com/watch?v=2hh8xt1EvQ8&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=19&pp=iAQB"
+    },
+    {
+        "title": "PENGULANGAN : FOR pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=1HussC8jKrk&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=20&pp=iAQB"
+    },
+    {
+        "title": "PENGKONDISIAN : IF ELSE pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=hXbDQryJAh0&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=21&pp=iAQB"
+    },
+    {
+        "title": "PENGKONDISIAN : ELSE IF pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=u0bl5DXNmVw&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=22&pp=iAQB"
+    },
+    {
+        "title": "PENGKONDISIAN : Latihan Pengkondisian pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=siN3zSICIDQ&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=23&pp=iAQB"
+    },
+    {
+        "title": "PENGKONDISIAN : SWITCH pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=8Srl-qk5VvM&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=24&pp=iAQB"
+    },
+    {
+        "title": "PENGULANGAN & PENGKONDISIAN BERSARANG pada JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=uRy81uWrkOQ&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=25&pp=iAQB"
+    },
+    {
+        "title": "MEMBUAT GAME SUWIT JAWA DENGAN JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=Mmf3SXHifBw&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=26&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : Intro",
+        "url": "https://www.youtube.com/watch?v=6-UqHXBtYkg&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=27&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : Membuat dan Menjalankan FUNCTION",
+        "url": "https://www.youtube.com/watch?v=dld5ZKHYxC0&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=28&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : PARAMETER dan ARGUMENT",
+        "url": "https://www.youtube.com/watch?v=MIn5CZhFqKo&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=29&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : REFACTORING",
+        "url": "https://www.youtube.com/watch?v=7LGERCBLUSM&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=30&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : VARIABLE SCOPE",
+        "url": "https://www.youtube.com/watch?v=a3CWDShrh0s&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=31&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : REKURSIF",
+        "url": "https://www.youtube.com/watch?v=-JV_YbJR1GY&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=32&pp=iAQB"
+    },
+    {
+        "title": "FUNCTION pada JAVASCRIPT : DECLARATION vs. EXPRESSION",
+        "url": "https://www.youtube.com/watch?v=3-Grei4X2NI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=33&pp=iAQB"
+    },
+    {
+        "title": "ARRAY pada JAVASCRIPT : Intro",
+        "url": "https://www.youtube.com/watch?v=CW5pfpafgDE&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=34&pp=iAQB"
+    },
+    {
+        "title": "ARRAY pada JAVASCRIPT : Manipulasi ARRAY",
+        "url": "https://www.youtube.com/watch?v=pDSz3sWnPRw&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=35&pp=iAQB"
+    },
+    {
+        "title": "ARRAY pada JAVASCRIPT : SLICE & SPLICE",
+        "url": "https://www.youtube.com/watch?v=9aMb10KJhsk&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=36&pp=iAQB"
+    },
+    {
+        "title": "ARRAY pada JAVASCRIPT : FOREACH & MAP",
+        "url": "https://www.youtube.com/watch?v=PUiEP7PBfh0&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=37&pp=iAQB"
+    },
+    {
+        "title": "ARRAY pada JAVASCRIPT : FILTER & FIND",
+        "url": "https://www.youtube.com/watch?v=5leAoG35T14&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=38&pp=iAQB"
+    },
+    {
+        "title": "MEMBUAT PROGRAM PENGELOLAAN PENUMPANG ANGKOT dengan JAVASCRIPT",
+        "url": "https://www.youtube.com/watch?v=mgRpWhNNGZo&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=39&pp=iAQB"
+    },
+    {
+        "title": "MEMBUAT PROGRAM PENGELOLAAN PENUMPANG ANGKOT dengan JAVASCRIPT (Bagian 2)",
+        "url": "https://www.youtube.com/watch?v=5v9WiGqfdWE&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=40&pp=iAQB"
+    },
+    {
+        "title": "OBJECT pada JAVASCRIPT : Intro",
+        "url": "https://www.youtube.com/watch?v=RKsapPaUgww&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=41&pp=iAQB"
+    },
+    {
+        "title": "OBJECT pada JAVASCRIPT : Membuat Object",
+        "url": "https://www.youtube.com/watch?v=bUZKDBgJFIM&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=42&pp=iAQB"
+    },
+    {
+        "title": "OBJECT pada JAVASCRIPT : THIS",
+        "url": "https://www.youtube.com/watch?v=5cGPf1sdTvw&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=43&pp=iAQB"
+    },
+    {
+        "title": "OBJECT pada JAVASCRIPT : Latihan Object (SELESAI)",
+        "url": "https://www.youtube.com/watch?v=JtESnohPUIw&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=44&pp=iAQB"
+    }
+]

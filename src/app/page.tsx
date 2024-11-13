@@ -245,7 +245,7 @@ export default function Home() {
       <section className="mt-10">
         <div className="flex  flex-col gap-y-2">
           <h1 className=" leading-tight text-[24px] dark:text-[#4EEEBB] font-extrabold uppercase md:text-center md:mx-auto md:max-w-lg lg:max-w-lg md:mt-10">
-            Apa aja sih yang bisa dilakukan oleh bahasa pemrograman diatas?
+            APLIKASI YANG BERBASIS BAHASA PEMROGRAMAN
           </h1>
           <p className="text-[16px] md:text-center md:mx-auto md:max-w-md">
             Kalian sudah mengetahui bahasa pemrograman diatas, dibagian ini
