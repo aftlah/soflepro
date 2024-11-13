@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <title>SOFLEPRO</title>
       <body className={`antialiased dark:bg-[#092534]`}>
         <ThemeProvider

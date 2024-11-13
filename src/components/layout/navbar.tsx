@@ -26,9 +26,17 @@ export default function Navbar() {
     const handleScroll = () => {
       const navbar = document.querySelector(".navbar");
       if (window.scrollY > 0) {
-        navbar?.classList.add("backdrop-blur-md", "dark:bg-[#092534]", "opacity-95");
+        navbar?.classList.add(
+          "backdrop-blur-md",
+          "dark:bg-[#092534]",
+          "opacity-95"
+        );
       } else {
-        navbar?.classList.remove("backdrop-blur-md", "dark:bg-[#092534]", "opacity-95");
+        navbar?.classList.remove(
+          "backdrop-blur-md",
+          "dark:bg-[#092534]",
+          "opacity-95"
+        );
       }
     };
 
@@ -42,22 +50,78 @@ export default function Navbar() {
     <>
       <div className="navbar fixed w-full">
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
-          <div onClick={() => router.push('/')} className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer">
+          <div
+            onClick={() => router.push("/")}
+            className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer"
+          >
             SOFLEPRO
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex">
-            <ul className="flex gap-4">
-              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#home">Home</a></li>
-              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#lang">Learn Programming Language</a></li>
-              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#about">About us</a></li>
-              <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#community">Community</a></li>
+            <ul className="flex gap-4 md:items-center">
+              <li>
+                <a
+                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                  href="#lang"
+                >
+                  Learn Programming Language
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                  href="#about"
+                >
+                  About us
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                  href="#community"
+                >
+                  Community
+                </a>
+              </li>
+              <li>
+                <div className="flex justify-start px-[10px]">
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="outline" size="icon">
+                        <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                        <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                        <span className="sr-only">Toggle theme</span>
+                      </Button>
+                    </DropdownMenuTrigger>
+
+                    <DropdownMenuContent align="start">
+                      <DropdownMenuItem onClick={() => setTheme("light")}>
+                        Light
+                      </DropdownMenuItem>
+                      <DropdownMenuItem onClick={() => setTheme("dark")}>
+                        Dark
+                      </DropdownMenuItem>
+                      <DropdownMenuItem onClick={() => setTheme("system")}>
+                        System
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </div>
+              </li>
             </ul>
           </div>
 
           {/* Mobile Hamburger Icon */}
-          <div className="lg:hidden">
+          <div className="md:hidden">
             <button
               onClick={handleNavbarClick}
               className="bg-transparent p-2"
@@ -82,14 +146,46 @@ export default function Navbar() {
 
           {/* Mobile Menu */}
           {onNavbarClick && (
-            <div className="absolute top-[70px] right-0 left-0 bg-[#092534] dark:bg-[#1b1b1b] p-4 md:hidden">
+            <div className="absolute top-[67px] right-0 left-0 bg-[#092534] dark:bg-[#1b1b1b] p-4 md:hidden">
               <ul className="flex flex-col gap-4 text-white px-[15px]">
-                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#home">Home</a></li>
-                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#lang">Learn Programming Language</a></li>
-                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#about">About us</a></li>
-                <li><a className="hover:text-[#4EEEBB] transition-all duration-300 ease-in" href="#community">Community</a></li>
+                <li>
+                  <a
+                    onClick={() => setOnNavbarClick(false)}
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#home"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => setOnNavbarClick(false)}
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#lang"
+                  >
+                    Learn Programming Language
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => setOnNavbarClick(false)}
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#about"
+                  >
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => setOnNavbarClick(false)}
+                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                    href="#community"
+                  >
+                    Community
+                  </a>
+                </li>
               </ul>
-              <div className="mt-4 flex justify-center">
+              <div className="mt-4 flex justify-start px-[10px]">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="icon">
@@ -98,14 +194,15 @@ export default function Navbar() {
                       <span className="sr-only">Toggle theme</span>
                     </Button>
                   </DropdownMenuTrigger>
+
                   <DropdownMenuContent align="end">
-                    <DropdownMenuItem onClick={() => setTheme("light")}>
+                    <DropdownMenuItem onClick={() => {setTheme("light"); setOnNavbarClick(false)}}>
                       Light
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setTheme("dark")}>
+                    <DropdownMenuItem onClick={() => {setTheme("dark"); setOnNavbarClick(false)}}>
                       Dark
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setTheme("system")}>
+                    <DropdownMenuItem onClick={() => {setTheme("system"); setOnNavbarClick(false)}}>
                       System
                     </DropdownMenuItem>
                   </DropdownMenuContent>
