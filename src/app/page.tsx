@@ -98,7 +98,7 @@ export default function Home() {
     const router = useRouter();
 
     return (
-        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px] ">
+        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px]">
             {/* Section 1 */}
             <section id="home" className="md:flex md:flex-row">
                 <div className="md:max-w-[60%] ">

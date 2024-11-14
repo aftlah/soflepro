@@ -80,10 +80,10 @@ export default function Navbar() {
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
           <a
             href="/"
-            className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer flex gap-1 items-center"
+            className="cursor-pointer flex gap-1 items-center"
           >
             <Image src="images/logo.svg" alt="logo" width={45} height={45}/>
-            <p>SOFLEPRO</p>
+            <p className="md:text-xl text-primary dark:text-[#4EEEBB] font-bold ">SOFLEPRO</p>
             
           </a>
 
