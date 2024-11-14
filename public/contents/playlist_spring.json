@@ -1,0 +1,46 @@
+[
+    {
+        "title": "TUTORIAL SPRING BOOT DASAR (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=VM3rwdMBORY&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=1&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING CONFIG PROPERTIES (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=3PmP2oFSVoY&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=2&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING LOGGING (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=FjP3St2j-2k&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=3&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING VALIDATION (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=dBnIH9kt0Sg&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=4&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING AOP (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=WpSNOTwzbUI&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=5&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING WEB MVC (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=No-p-Va0viU&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=6&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING DATA JPA (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=iXbQhfNKDUg&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=7&pp=iAQB"
+    },
+    {
+        "title": "TUTORIAL SPRING BOOT RESTFUL API (BAHASA INDONESIA)",
+        "url": "https://www.youtube.com/watch?v=eFIBOVXilK4&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=8&pp=iAQB"
+    },
+    {
+        "title": "SPRING ASYNC",
+        "url": "https://www.youtube.com/watch?v=J9erkQY3DpE&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=9&pp=iAQB"
+    },
+    {
+        "title": "Tutorial Spring Monitoring (Bahasa Indonesia)",
+        "url": "https://www.youtube.com/watch?v=DMMzPxYjd2Q&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=10&pp=iAQB"
+    },
+    {
+        "title": "Tutorial Spring Data Redis (Bahasa Indonesia)",
+        "url": "https://www.youtube.com/watch?v=svOrNgh8Mi4&list=PL-CtdCApEFH8bV3sla0QfmMnJQ4YX_wR1&index=11&pp=iAQB"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Pengenalan",
+        "url": "https://www.youtube.com/watch?v=rNSfMxMPWqc&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=1&pp=iAQB"
+    },
+    {
+        "title": "Setup Project",
+        "url": "https://www.youtube.com/watch?v=QbmrYAq-YqE&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=2&pp=iAQB"
+    },
+    {
+        "title": "Component & Props",
+        "url": "https://www.youtube.com/watch?v=JF9Zbxu8Mz0&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=3&pp=iAQB"
+    },
+    {
+        "title": "Pengenalan Atomic Design",
+        "url": "https://www.youtube.com/watch?v=FFx-wm8e0xY&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=4&pp=iAQB"
+    },
+    {
+        "title": "Implementasi Atomic Design",
+        "url": "https://www.youtube.com/watch?v=H2_AjVQEjvY&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=5&pp=iAQB"
+    },
+    {
+        "title": "React Router",
+        "url": "https://www.youtube.com/watch?v=SYJpUJmYBRk&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=6&pp=iAQB"
+    },
+    {
+        "title": "Conditional Rendering",
+        "url": "https://www.youtube.com/watch?v=_kGqT8MaYRQ&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=7&pp=iAQB"
+    },
+    {
+        "title": "Nested Component",
+        "url": "https://www.youtube.com/watch?v=1cojbMMR7ms&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=8&pp=iAQB"
+    },
+    {
+        "title": "Rendering Lists",
+        "url": "https://www.youtube.com/watch?v=Z_omTIQL5pw&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=9&pp=iAQB"
+    },
+    {
+        "title": "Event Handler",
+        "url": "https://www.youtube.com/watch?v=6PcBnrr45XQ&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=10&pp=iAQB"
+    },
+    {
+        "title": "State",
+        "url": "https://www.youtube.com/watch?v=qHQv_cRmJiQ&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=11&pp=iAQB"
+    },
+    {
+        "title": "useState",
+        "url": "https://www.youtube.com/watch?v=ptx1eNK-DuY&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=12&pp=iAQB"
+    },
+    {
+        "title": "Lifecycle",
+        "url": "https://www.youtube.com/watch?v=XuEnN8SBiy4&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=13&pp=iAQB"
+    },
+    {
+        "title": "useEffect",
+        "url": "https://www.youtube.com/watch?v=BE2uTuGGL0Y&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=14&pp=iAQB"
+    },
+    {
+        "title": "useRef",
+        "url": "https://www.youtube.com/watch?v=8JR_CTHDPbw&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=15&pp=iAQB"
+    },
+    {
+        "title": "Get Data API",
+        "url": "https://www.youtube.com/watch?v=KkbtrogWeIw&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=16&pp=iAQB"
+    },
+    {
+        "title": "Post Data API",
+        "url": "https://www.youtube.com/watch?v=wwK1EwTwFYE&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=17&pp=iAQB"
+    },
+    {
+        "title": "Custom Hooks",
+        "url": "https://www.youtube.com/watch?v=ajNKk9sIVFY&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=18&pp=iAQB"
+    },
+    {
+        "title": "Dynamic Routing",
+        "url": "https://www.youtube.com/watch?v=3mEdAbbyKk0&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=19&pp=iAQB"
+    },
+    {
+        "title": "Redux - State Management",
+        "url": "https://www.youtube.com/watch?v=jn89UKxa2do&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=20&pp=iAQB"
+    },
+    {
+        "title": "Redux Toolkit",
+        "url": "https://www.youtube.com/watch?v=OoEeZQ0ZQiE&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=21&pp=iAQB"
+    },
+    {
+        "title": "Implementasi React Redux",
+        "url": "https://www.youtube.com/watch?v=CHz9ydWpQIc&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=22&pp=iAQB"
+    },
+    {
+        "title": "useContext",
+        "url": "https://www.youtube.com/watch?v=0jIW9VTmF14&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=23&pp=iAQB"
+    },
+    {
+        "title": "useReducer",
+        "url": "https://www.youtube.com/watch?v=2Kv0Gfm9QHY&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=24&pp=iAQB"
+    },
+    {
+        "title": "Review Materi & Spoiler Tutorial Berikutnya",
+        "url": "https://www.youtube.com/watch?v=vwg9VTDPG78&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=25&pp=iAQB"
+    },
+    {
+        "title": "useId Hooks",
+        "url": "https://www.youtube.com/watch?v=XywjvuhAv4c&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=26&pp=iAQB"
+    },
+    {
+        "title": "Memo",
+        "url": "https://www.youtube.com/watch?v=XeTNG8Lzow8&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=27&pp=iAQB"
+    },
+    {
+        "title": "useMemo",
+        "url": "https://www.youtube.com/watch?v=T3-gLmDSBNw&list=PLmF_zPV9ZcP346sttD4Vs2VROLlIp5kPz&index=28&pp=iAQB"
+    }
+]

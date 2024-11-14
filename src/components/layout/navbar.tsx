@@ -7,7 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Moon, Sun } from 'lucide-react';
+import { Link, Moon, Sun } from 'lucide-react';
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
@@ -77,12 +77,12 @@ export default function Navbar() {
     <>
       <div className={`navbar fixed w-full transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
-          <div
-            onClick={() => router.push("/")}
+          <a
+            href="/"
             className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer"
           >
             SOFLEPRO
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex">
