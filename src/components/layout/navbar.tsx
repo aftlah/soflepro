@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -79,9 +80,11 @@ export default function Navbar() {
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
           <a
             href="/"
-            className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer"
+            className="md:text-xl text-dark dark:text-[#4EEEBB] font-bold cursor-pointer flex gap-1 items-center"
           >
-            SOFLEPRO
+            <Image src="images/logo.svg" alt="logo" width={45} height={45}/>
+            <p>SOFLEPRO</p>
+            
           </a>
 
           {/* Desktop Menu */}
@@ -188,46 +191,60 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Mobile Menu */}
-          {onNavbarClick && (
+           {/* Mobile Menu */}
+           {onNavbarClick && (
             <div className="absolute top-[67px] right-0 left-0 bg-[#092534] dark:bg-[#1b1b1b] p-4 md:hidden">
               <ul className="flex flex-col gap-4 text-white px-[15px]">
-                <li>
-                  <a
-                    onClick={() => setOnNavbarClick(false)}
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#home"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    onClick={() => setOnNavbarClick(false)}
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#lang"
-                  >
-                    Learn Programming Language
-                  </a>
-                </li>
-                <li>
-                  <a
-                    onClick={() => setOnNavbarClick(false)}
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#about"
-                  >
-                    About us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    onClick={() => setOnNavbarClick(false)}
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#community"
-                  >
-                    Community
-                  </a>
-                </li>
+                {pathname === "/" ? (
+                  <>
+                    <li>
+                      <a
+                        onClick={() => setOnNavbarClick(false)}
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#home"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setOnNavbarClick(false)}
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#lang"
+                      >
+                        Learn
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setOnNavbarClick(false)}
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#about"
+                      >
+                        About us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={() => setOnNavbarClick(false)}
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#community"
+                      >
+                        Community
+                      </a>
+                    </li>
+                  </>
+                ) : (
+                  <li>
+                    <a
+                      onClick={() => setOnNavbarClick(false)}
+                      className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                )}
               </ul>
               <div className="mt-4 flex justify-start px-[10px]">
                 <DropdownMenu>

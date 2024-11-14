@@ -122,7 +122,7 @@ export default function Home() {
                             PHP secara GRATIS lhoo
                         </p>
                     </div>
-                    <div className="mt-3 ">
+                    <div className="mt-5 ">
                         <Link
                             href="#lang"
                             className="font-medium px-5 py-2 rounded-lg border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
@@ -135,7 +135,7 @@ export default function Home() {
 
                         // onClick={() => router.push("/learn")}
                         >
-                            Belajar Sekarang {">"}
+                            Belajar Sekarang
                         </Link>
                     </div>
                 </div>
@@ -313,7 +313,7 @@ export default function Home() {
                             style={{ width: "auto", height: "auto" }}
                         />
                         <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Membangun Logika dan Problem Solving
+                            Membangun logika dan problem solving
                         </h1>
                     </div>
                     <div className="flex flex-col justify-start items-center max-w-[235px] md:w-full mt-[49px] md:mt-9 min-h-[250px]">
@@ -325,7 +325,7 @@ export default function Home() {
                             style={{ width: "auto", height: "auto" }}
                         />
                         <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Pondasi untuk Belajar teknologi yang Lebih Kompleks seperti
+                            Pondasi untuk belajar teknologi yang lebih kompleks seperti
                             framework
                         </h1>
                     </div>
@@ -338,7 +338,7 @@ export default function Home() {
                             style={{ width: "auto", height: "auto" }}
                         />
                         <h1 className="text-center text-[20px] md:text-[18px] font-bold mt-4 max-w-[200px]">
-                            Peluang Karir yang Luas
+                            Peluang karir yang Luas
                         </h1>
                     </div>
                 </div>
