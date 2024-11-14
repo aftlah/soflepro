@@ -103,7 +103,7 @@ export default function DetailPembelajaranPage() {
     }
 
     
-  }, [bahasaPemrograman, window.location.pathname]);
+  }, [bahasaPemrograman, currentContent, currentPlaylist]);
 
   const totalPages = playlistData
     ? Math.ceil(playlistData.length / itemsPerPage)
@@ -151,7 +151,7 @@ export default function DetailPembelajaranPage() {
 
           {playlistData ? (
             <div className="mt-3 ">
-              <p className="font-medium text-[16px] ">{contentData.header}</p>
+              <p className="font-medium text-[16px]  md:max-w-4xl">{contentData.header}</p>
               <div className="mt-6 md:grid md:grid-cols-2 gap-4">
                 {paginatedData.map((item, index) => (
                   <Link href={item.url} key={index} target="_blank">
@@ -163,7 +163,7 @@ export default function DetailPembelajaranPage() {
                         height={45}
                       />
                       <p
-                        className="text-[11px] font-bold uppercase
+                        className="text-[14px] font-bold uppercase
                       
                       "
                       >

@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import {
   DropdownMenu,
@@ -6,7 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun } from 'lucide-react';
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
@@ -17,10 +18,36 @@ export default function Navbar() {
   const pathname = usePathname();
   const { setTheme } = useTheme();
   const [onNavbarClick, setOnNavbarClick] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleNavbarClick = () => {
     setOnNavbarClick(!onNavbarClick);
   };
+
+  useEffect(() => {
+    const controlNavbar = () => {
+      if (typeof window !== 'undefined') {
+        if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
+          setIsVisible(false);
+        } else { // if scroll up show the navbar
+          setIsVisible(true);
+        }
+
+        // remember current page location to use in the next move
+        setLastScrollY(window.scrollY);
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', controlNavbar);
+
+      // cleanup function
+      return () => {
+        window.removeEventListener('scroll', controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,13 +71,11 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-
-    
   }, []);
 
   return (
     <>
-      <div className="navbar fixed w-full">
+      <div className={`navbar fixed w-full transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
           <div
             onClick={() => router.push("/")}
@@ -64,7 +89,7 @@ export default function Navbar() {
             <ul className="flex gap-4 md:items-center">
               {/* Conditional rendering of the Home link */}
               {pathname === "/" ? (
-                <div className="flex gap-4">
+                <>
                   <li>
                     <a
                       className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
@@ -74,32 +99,32 @@ export default function Navbar() {
                     </a>
                   </li>
                   <div className="md:flex md:gap-4">
-                <li>
-                  <a
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#lang"
-                  >
-                    Learn Programming Language
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#about"
-                  >
-                    About us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
-                    href="#community"
-                  >
-                    Community
-                  </a>
-                </li>
-              </div>
-                </div>
+                    <li>
+                      <a
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#lang"
+                      >
+                        Learn
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#about"
+                      >
+                        About us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="hover:text-[#4EEEBB] transition-all duration-300 ease-in"
+                        href="#community"
+                      >
+                        Community
+                      </a>
+                    </li>
+                  </div>
+                </>
               ) : (
                 <li>
                   <a
@@ -111,7 +136,6 @@ export default function Navbar() {
                 </li>
               )}
 
-              
               <li>
                 <div className="flex justify-start px-[10px]">
                   <DropdownMenu>
