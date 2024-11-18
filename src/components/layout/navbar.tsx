@@ -77,7 +77,7 @@ export default function Navbar() {
   return (
     <>
       <div className={`navbar fixed w-full transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-        <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[170px]">
+        <div className="flex justify-between container mx-auto items-center px-8 py-3 lg:px-[40px] xl:px-[260px] ">
           <a
             href="/"
             className="cursor-pointer flex gap-1 items-center"

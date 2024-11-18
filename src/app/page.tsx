@@ -98,11 +98,11 @@ export default function Home() {
     const router = useRouter();
 
     return (
-        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px]">
+        <div className="container px-[25px] md:mx-auto py-1 mt-6 md:px-[30px] xl:px-[0px]">
             {/* Section 1 */}
             <section id="home" className="md:flex md:flex-row">
                 <div className="md:max-w-[60%] ">
-                    <div className="text-[36px] font-extrabold text-white leading-tight uppercase">
+                    <div className="text-[36px] xl:text-[48px] font-extrabold text-white leading-tight uppercase">
                         <h1 className="dark:text-white text-[#4EEEBB]">
                             <span className="text-[#092534] dark:text-[#4EEEBB]">SO</span>urce
                         </h1>
@@ -357,9 +357,8 @@ export default function Home() {
                         pemrograman, termasuk C++, Python, Java, JavaScript, dan PHP. <br />{" "}
                         <br />
                         Anda dapat belajar melalui video tutorial yang disusun langkah demi
-                        langkah. Sumber materi kami berasal dari dua channel youtube yang
-                        sangat direkomendasikan bagi pemula, yaitu channel youtube Kelas
-                        Terbuka dan Web Programming UNPAS.
+                        langkah. Sumber materi kami berasal dari channel-channel youtube yang
+                        sangat direkomendasikan bagi pemula.
                     </p>
                 </div>
             </section>
