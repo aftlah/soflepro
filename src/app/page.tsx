@@ -7,92 +7,33 @@ import { useRouter } from "next/navigation";
 import * as React from "react";
 import dataGame from "@/utils/datas";
 
-// const dataGame = [
-//     {
-//         language: "CPP",
-//         apps: [
-//             {
-//                 title: "FORTNITE",
-//                 image: "/images/Fortnite.svg",
-//             },
-//             {
-//                 title: "PUBG",
-//                 image: "/images/PUBG.svg",
-//             },
-//             {
-//                 title: "FORTNITE",
-//                 image: "/images/Fortnite.svg",
-//             },
-//             {
-//                 title: "PUBG",
-//                 image: "/images/PUBG.svg",
-//             },
-//         ],
-//     },
-//     {
-//         language: "PYTHON",
-//         apps: [
-//             {
-//                 title: "INSTAGRAM",
-//                 image: "/images/Instagram.svg",
-//             },
-//             {
-//                 title: "SPOTIFY",
-//                 image: "/images/spotify.svg",
-//             },
-//             {
-//                 title: "INSTAGRAM",
-//                 image: "/images/Instagram.svg",
-//             },
-//             {
-//                 title: "SPOTIFY",
-//                 image: "/images/spotify.svg",
-//             },
-//         ],
-//     },
-//     {
-//         language: "JAVASCRIPT",
-//         apps: [
-//             {
-//                 title: "NETFLIX",
-//                 image: "/images/Netflix.svg",
-//             },
-//             {
-//                 title: "PAYPAL",
-//                 image: "/images/Paypal.svg",
-//             },
-//             {
-//                 title: "NETFLIX",
-//                 image: "/images/Netflix.svg",
-//             },
-//             {
-//                 title: "PAYPAL",
-//                 image: "/images/Paypal.svg",
-//             },
-//         ],
-//     },
-//     {
-//         language: "PHP",
-//         apps: [
-//             {
-//                 title: "GOOGLE",
-//                 image: "/images/google.svg",
-//             },
-//             {
-//                 title: "WORDPRESS",
-//                 image: "/images/WordPress.svg",
-//             },
-//             {
-//                 title: "GOOGLE",
-//                 image: "/images/google.svg",
-//             },
-//             {
-//                 title: "WORDPRESS",
-//                 image: "/images/WordPress.svg",
-//             },
-//         ],
-//     },
-// ];
+const channel = [
+    {
+        name: "Web Programming Unpas",
+        image: "/images/wpu.svg",
+        link: "https://www.youtube.com/@sandhikagalihWPU"
+    },
+    {
+        name: "Kelas Terbuka",
+        image: "/images/kt.svg",
+        link: ""
+    },
+    {
+        name: "VIP CODE STUDIO",
+        image: "/images/wpu.svg",
+        link: "https://www.youtube.com/@vipcodestudio"
+    },
+    {
+        name: "Web Programming",
+        image: "/images/wpu.svg",
+        link: ""
+    },
+    {
+        name: "Web Programming",
+        image: "/images/wpu.svg",
+        link: ""
+    },
+]
 
 export default function Home() {
     const router = useRouter();
@@ -119,21 +60,13 @@ export default function Home() {
                         <p className="text-[16px]  md:pr-10">
                             Menyediakan sumber belajar untuk kamu yang ingin mempelajari
                             dasar-dasar bahasa pemrograman C++, Python, Java, Javascript dan
-                            PHP secara GRATIS lhoo
+                            PHP secara GRATIS!
                         </p>
                     </div>
                     <div className="mt-5 ">
                         <Link
                             href="#lang"
                             className="font-medium px-5 py-2 rounded-lg border-2 border-[#092534] dark:bg-transparent dark:border-primary dark:text-[#ffffff] dark:hover:bg-primary dark:hover:text-[#092534] trasnsition duration-300 ease-in-out bg-transparent text-[#092534] hover:bg-[#092534] hover:text-white"
-                        // onClick={() => {
-                        //     const section = document.getElementById("target-section");
-                        //     if (section) {
-                        //         section.scrollIntoView({ behavior: "smooth" });
-                        //     }
-                        // }}
-
-                        // onClick={() => router.push("/learn")}
                         >
                             Belajar Sekarang
                         </Link>
@@ -363,7 +296,26 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Section 7 */}
+            {/* section 7  */}
+            <section className="mt-[65px]">
+                <div className="flex flex-col justify-center items-center gap-y-[23px]">
+                    <h1 className="font-extrabold text-[24px] dark:text-primary uppercase">
+                        SUMBER BELAJAR
+                    </h1>
+                    <p className="text-center md:max-w-lg">
+                        SOFLEPRO adalah platform pembelajaran online yang menyediakan sumber
+                        belajar gratis bagi Anda yang ingin mempelajari dasar-dasar bahasa
+                        pemrograman. Kami menawarkan materi dalam berbagai bahasa
+                        pemrograman, termasuk C++, Python, Java, JavaScript, dan PHP. <br />{" "}
+                        <br />
+                        Anda dapat belajar melalui video tutorial yang disusun langkah demi
+                        langkah. Sumber materi kami berasal dari channel-channel youtube yang
+                        sangat direkomendasikan bagi pemula.
+                    </p>
+                </div>
+            </section>
+
+            {/* Section 8 */}
 
             <section id="community" className="mt-[65px]">
                 <div className="flex flex-col justify-center items-center gap-y-[23px]">

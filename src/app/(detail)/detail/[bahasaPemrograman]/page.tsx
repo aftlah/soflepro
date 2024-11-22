@@ -134,7 +134,7 @@ export default function DetailPembelajaranPage() {
     : []
 
   return (
-    <div className="px-[25px] md:px-[20px] lg:px-[30px] xl:px-[31px]">
+    <div className="px-[25px] md:px-[20px] lg:px-[30px] xl:px-[10px] 2xl:px-[0px]">
       {contentData ? (
         <>
           <h1 className="text-2xl font-extrabold dark:text-primary mb-4">
