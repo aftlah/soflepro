@@ -31,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <title>SOFLEPRO</title>
+      <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon" />
       <body className={`antialiased dark:bg-[#092534]`}>
         <ThemeProvider
           attribute="class"
