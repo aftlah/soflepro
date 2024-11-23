@@ -7,15 +7,15 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Link, Moon, Sun } from 'lucide-react';
-import { useRouter } from "next/navigation";
+import { Moon, Sun } from 'lucide-react';
+// import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 export default function Navbar() {
-  const router = useRouter();
+  // const router = useRouter();
   const pathname = usePathname();
   const { setTheme } = useTheme();
   const [onNavbarClick, setOnNavbarClick] = useState(false);
