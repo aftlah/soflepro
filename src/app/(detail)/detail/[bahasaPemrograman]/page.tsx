@@ -100,8 +100,7 @@ export default function DetailPembelajaranPage() {
           <h1 className="text-2xl font-extrabold dark:text-primary mb-4">
             Bahasa{" "}
             {typeof bahasaPemrograman === "string"
-              ? bahasaPemrograman.toUpperCase()
-              : ""}
+              ? bahasaPemrograman.toUpperCase() : ""}
           </h1>
           <Image src={contentData.logo} alt="" width={65} height={65} />
 
