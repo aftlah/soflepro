@@ -12,8 +12,8 @@ SoflePro adalah platform pembelajaran programming yang dirancang untuk membantu 
 - 🔄 **Multi Bahasa**: Mendukung berbagai bahasa pemrograman populer (JavaScript, Python, Java, PHP)
 - 🛠 **Framework Learning**: Pembelajaran framework terkini (React, Django, Spring Boot, Laravel)
 - 📱 **Responsive Design**: Tampilan yang responsif untuk akses di berbagai perangkat
-- 🌙 **Dark Mode**: Dukungan mode gelap untuk kenyamanan pembelajaran
-- 🎥 **Video Tutorial**: Akses ke video pembelajaran berkualitas
+
+
 
 ## 🛠 Tech Stack
 
@@ -47,6 +47,11 @@ SoflePro adalah platform pembelajaran programming yang dirancang untuk membantu 
 4. **Buka Browser**
    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
 
+
+## 🌟 Fitur Mendatang
+
+    - Quiz & Assessments
+
 ## 📁 Struktur Project
 
 ```
@@ -59,39 +64,6 @@ SoflePro adalah platform pembelajaran programming yang dirancang untuk membantu 
 │   └── /styles           # Global styles
 ```
 
-## 🌟 Fitur Mendatang
-
-- [ ] Authentication & User Profiles
-- [ ] Progress Tracking
-- [ ] Quiz & Assessments
-- [ ] Code Editor Integration
-- [ ] Community Forum
-- [ ] Certificate Generation
-
-## 🤝 Kontribusi
-
-Kami sangat terbuka untuk kontribusi! Jika Anda ingin berkontribusi:
-
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buka Pull Request
-
-## 📝 Lisensi
-
-Project ini dilisensikan di bawah [MIT License](LICENSE).
-
-## 👥 Tim
-
-- Developer - [Your Name](https://github.com/yourusername)
-- Designer - [Designer Name](https://github.com/designerusername)
-
-## 📞 Kontak
-
-- Website: [yourdomain.com](https://yourdomain.com)
-- Email: your.email@domain.com
-- Twitter: [@yourusername](https://twitter.com/yourusername)
 
 ---
 
