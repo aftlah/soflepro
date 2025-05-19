@@ -4,4 +4,3 @@ export async function generateStaticParams() {
       bahasaPemrograman: lang,
     }));
   }
-  
